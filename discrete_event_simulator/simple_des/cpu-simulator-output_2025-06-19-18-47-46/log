@@ -1,0 +1,3030 @@
+*** Simulator for CPU Job Scheduling ***
+*** cpu-simulator-output_2025-06-19-18-47-46 ***
+*** [simulator_rng seed=111] ***
+*** Invocation: ./bin/cpu-simulator 1 1000 1 111 ***
+[        0.000ms]   0: Job Arrived
+[        0.000ms]   0: Job being scheduled now
+[        0.129ms]   1: Job Arrived
+[        0.488ms]   2: Job Arrived
+[        1.000ms]   0: Job interrupted because of preemptive scheduling
+[        1.000ms]   1: Job being scheduled now
+[        2.000ms]   1: Job interrupted because of preemptive scheduling
+[        2.000ms]   2: Job being scheduled now
+[        2.411ms]   3: Job Arrived
+[        2.765ms]   4: Job Arrived
+[        3.000ms]   2: Job interrupted because of preemptive scheduling
+[        3.000ms]   0: Job being scheduled now
+[        3.239ms]   5: Job Arrived
+[        3.474ms]   6: Job Arrived
+[        4.000ms]   0: Job completed
+[        4.000ms]   1: Job being scheduled now
+[        4.523ms]   7: Job Arrived
+[        5.000ms]   1: Job interrupted because of preemptive scheduling
+[        5.000ms]   3: Job being scheduled now
+[        5.443ms]   8: Job Arrived
+[        6.000ms]   3: Job interrupted because of preemptive scheduling
+[        6.000ms]   4: Job being scheduled now
+[        6.689ms]   9: Job Arrived
+[        7.000ms]   4: Job interrupted because of preemptive scheduling
+[        7.000ms]   2: Job being scheduled now
+[        8.000ms]   2: Job interrupted because of preemptive scheduling
+[        8.000ms]   5: Job being scheduled now
+[        9.000ms]   5: Job interrupted because of preemptive scheduling
+[        9.000ms]   6: Job being scheduled now
+[        9.220ms]  10: Job Arrived
+[        9.330ms]  11: Job Arrived
+[       10.000ms]   6: Job interrupted because of preemptive scheduling
+[       10.000ms]   7: Job being scheduled now
+[       10.081ms]  12: Job Arrived
+[       10.412ms]  13: Job Arrived
+[       11.000ms]   7: Job interrupted because of preemptive scheduling
+[       11.000ms]   1: Job being scheduled now
+[       11.449ms]  14: Job Arrived
+[       11.645ms]  15: Job Arrived
+[       12.000ms]   1: Job interrupted because of preemptive scheduling
+[       12.000ms]   8: Job being scheduled now
+[       12.919ms]  16: Job Arrived
+[       13.000ms]   8: Job interrupted because of preemptive scheduling
+[       13.000ms]   3: Job being scheduled now
+[       13.399ms]  17: Job Arrived
+[       14.000ms]   3: Job interrupted because of preemptive scheduling
+[       14.000ms]   9: Job being scheduled now
+[       14.378ms]  18: Job Arrived
+[       14.636ms]  19: Job Arrived
+[       15.000ms]   9: Job interrupted because of preemptive scheduling
+[       15.000ms]   4: Job being scheduled now
+[       16.000ms]   4: Job interrupted because of preemptive scheduling
+[       16.000ms]   2: Job being scheduled now
+[       16.097ms]  20: Job Arrived
+[       17.000ms]   2: Job interrupted because of preemptive scheduling
+[       17.000ms]   5: Job being scheduled now
+[       18.000ms]   5: Job interrupted because of preemptive scheduling
+[       18.000ms]  10: Job being scheduled now
+[       19.000ms]  10: Job interrupted because of preemptive scheduling
+[       19.000ms]  11: Job being scheduled now
+[       20.000ms]  11: Job interrupted because of preemptive scheduling
+[       20.000ms]   6: Job being scheduled now
+[       20.273ms]  21: Job Arrived
+[       20.923ms]  22: Job Arrived
+[       21.000ms]   6: Job interrupted because of preemptive scheduling
+[       21.000ms]  12: Job being scheduled now
+[       22.000ms]  12: Job interrupted because of preemptive scheduling
+[       22.000ms]  13: Job being scheduled now
+[       22.474ms]  23: Job Arrived
+[       23.000ms]  13: Job interrupted because of preemptive scheduling
+[       23.000ms]   7: Job being scheduled now
+[       23.665ms]  24: Job Arrived
+[       24.000ms]   7: Job interrupted because of preemptive scheduling
+[       24.000ms]  14: Job being scheduled now
+[       25.000ms]  14: Job interrupted because of preemptive scheduling
+[       25.000ms]  15: Job being scheduled now
+[       25.522ms]  25: Job Arrived
+[       26.000ms]  15: Job interrupted because of preemptive scheduling
+[       26.000ms]   1: Job being scheduled now
+[       26.817ms]  26: Job Arrived
+[       27.000ms]   1: Job interrupted because of preemptive scheduling
+[       27.000ms]  16: Job being scheduled now
+[       27.132ms]  27: Job Arrived
+[       28.000ms]  16: Job interrupted because of preemptive scheduling
+[       28.000ms]   8: Job being scheduled now
+[       28.763ms]  28: Job Arrived
+[       29.000ms]   8: Job interrupted because of preemptive scheduling
+[       29.000ms]  17: Job being scheduled now
+[       29.355ms]  29: Job Arrived
+[       30.000ms]  17: Job interrupted because of preemptive scheduling
+[       30.000ms]   3: Job being scheduled now
+[       31.000ms]   3: Job interrupted because of preemptive scheduling
+[       31.000ms]  18: Job being scheduled now
+[       31.396ms]  30: Job Arrived
+[       32.000ms]  18: Job interrupted because of preemptive scheduling
+[       32.000ms]  19: Job being scheduled now
+[       33.000ms]  19: Job interrupted because of preemptive scheduling
+[       33.000ms]   9: Job being scheduled now
+[       34.000ms]   9: Job interrupted because of preemptive scheduling
+[       34.000ms]   4: Job being scheduled now
+[       34.175ms]  31: Job Arrived
+[       34.532ms]  32: Job Arrived
+[       34.806ms]  33: Job Arrived
+[       35.000ms]   4: Job interrupted because of preemptive scheduling
+[       35.000ms]  20: Job being scheduled now
+[       35.606ms]  34: Job Arrived
+[       36.000ms]  20: Job interrupted because of preemptive scheduling
+[       36.000ms]   2: Job being scheduled now
+[       36.030ms]  35: Job Arrived
+[       37.000ms]   2: Job interrupted because of preemptive scheduling
+[       37.000ms]   5: Job being scheduled now
+[       37.338ms]  36: Job Arrived
+[       37.765ms]  37: Job Arrived
+[       38.000ms]   5: Job interrupted because of preemptive scheduling
+[       38.000ms]  10: Job being scheduled now
+[       38.116ms]  38: Job Arrived
+[       38.884ms]  39: Job Arrived
+[       38.945ms]  40: Job Arrived
+[       39.000ms]  10: Job interrupted because of preemptive scheduling
+[       39.000ms]  11: Job being scheduled now
+[       39.982ms]  41: Job Arrived
+[       40.000ms]  11: Job interrupted because of preemptive scheduling
+[       40.000ms]  21: Job being scheduled now
+[       41.000ms]  21: Job interrupted because of preemptive scheduling
+[       41.000ms]  22: Job being scheduled now
+[       41.091ms]  42: Job Arrived
+[       41.099ms]  43: Job Arrived
+[       42.000ms]  22: Job interrupted because of preemptive scheduling
+[       42.000ms]   6: Job being scheduled now
+[       43.000ms]   6: Job interrupted because of preemptive scheduling
+[       43.000ms]  12: Job being scheduled now
+[       43.017ms]  44: Job Arrived
+[       43.098ms]  45: Job Arrived
+[       43.529ms]  46: Job Arrived
+[       44.000ms]  12: Job interrupted because of preemptive scheduling
+[       44.000ms]  23: Job being scheduled now
+[       45.000ms]  23: Job interrupted because of preemptive scheduling
+[       45.000ms]  13: Job being scheduled now
+[       45.142ms]  47: Job Arrived
+[       45.308ms]  48: Job Arrived
+[       45.690ms]  49: Job Arrived
+[       45.964ms]  50: Job Arrived
+[       46.000ms]  13: Job interrupted because of preemptive scheduling
+[       46.000ms]  24: Job being scheduled now
+[       46.411ms]  51: Job Arrived
+[       47.000ms]  24: Job interrupted because of preemptive scheduling
+[       47.000ms]   7: Job being scheduled now
+[       48.000ms]   7: Job interrupted because of preemptive scheduling
+[       48.000ms]  14: Job being scheduled now
+[       48.307ms]  52: Job Arrived
+[       48.709ms]  53: Job Arrived
+[       49.000ms]  14: Job interrupted because of preemptive scheduling
+[       49.000ms]  25: Job being scheduled now
+[       49.061ms]  54: Job Arrived
+[       50.000ms]  25: Job interrupted because of preemptive scheduling
+[       50.000ms]  15: Job being scheduled now
+[       50.030ms]  55: Job Arrived
+[       50.410ms]  56: Job Arrived
+[       50.715ms]  57: Job Arrived
+[       51.000ms]  15: Job interrupted because of preemptive scheduling
+[       51.000ms]  26: Job being scheduled now
+[       52.000ms]  26: Job interrupted because of preemptive scheduling
+[       52.000ms]   1: Job being scheduled now
+[       52.395ms]  58: Job Arrived
+[       53.000ms]   1: Job completed
+[       53.000ms]  27: Job being scheduled now
+[       54.000ms]  27: Job interrupted because of preemptive scheduling
+[       54.000ms]  16: Job being scheduled now
+[       54.087ms]  59: Job Arrived
+[       54.987ms]  60: Job Arrived
+[       55.000ms]  16: Job interrupted because of preemptive scheduling
+[       55.000ms]  28: Job being scheduled now
+[       55.701ms]  61: Job Arrived
+[       56.000ms]  28: Job interrupted because of preemptive scheduling
+[       56.000ms]   8: Job being scheduled now
+[       56.176ms]  62: Job Arrived
+[       56.720ms]  63: Job Arrived
+[       57.000ms]   8: Job interrupted because of preemptive scheduling
+[       57.000ms]  29: Job being scheduled now
+[       58.000ms]  29: Job interrupted because of preemptive scheduling
+[       58.000ms]  17: Job being scheduled now
+[       58.972ms]  64: Job Arrived
+[       59.000ms]  17: Job interrupted because of preemptive scheduling
+[       59.000ms]   3: Job being scheduled now
+[       60.000ms]   3: Job interrupted because of preemptive scheduling
+[       60.000ms]  30: Job being scheduled now
+[       61.000ms]  30: Job interrupted because of preemptive scheduling
+[       61.000ms]  18: Job being scheduled now
+[       61.357ms]  65: Job Arrived
+[       61.437ms]  66: Job Arrived
+[       62.000ms]  18: Job interrupted because of preemptive scheduling
+[       62.000ms]  19: Job being scheduled now
+[       63.000ms]  19: Job interrupted because of preemptive scheduling
+[       63.000ms]   9: Job being scheduled now
+[       63.189ms]  67: Job Arrived
+[       63.692ms]  68: Job Arrived
+[       63.903ms]  69: Job Arrived
+[       64.000ms]   9: Job interrupted because of preemptive scheduling
+[       64.000ms]  31: Job being scheduled now
+[       64.834ms]  70: Job Arrived
+[       65.000ms]  31: Job interrupted because of preemptive scheduling
+[       65.000ms]  32: Job being scheduled now
+[       65.502ms]  71: Job Arrived
+[       65.663ms]  72: Job Arrived
+[       66.000ms]  32: Job interrupted because of preemptive scheduling
+[       66.000ms]  33: Job being scheduled now
+[       66.298ms]  73: Job Arrived
+[       67.000ms]  33: Job interrupted because of preemptive scheduling
+[       67.000ms]   4: Job being scheduled now
+[       67.271ms]  74: Job Arrived
+[       67.515ms]  75: Job Arrived
+[       67.631ms]  76: Job Arrived
+[       68.000ms]   4: Job interrupted because of preemptive scheduling
+[       68.000ms]  34: Job being scheduled now
+[       68.532ms]  77: Job Arrived
+[       69.000ms]  34: Job interrupted because of preemptive scheduling
+[       69.000ms]  20: Job being scheduled now
+[       70.000ms]  20: Job interrupted because of preemptive scheduling
+[       70.000ms]  35: Job being scheduled now
+[       71.000ms]  35: Job interrupted because of preemptive scheduling
+[       71.000ms]   2: Job being scheduled now
+[       71.650ms]  78: Job Arrived
+[       72.000ms]   2: Job completed
+[       72.000ms]  36: Job being scheduled now
+[       72.356ms]  79: Job Arrived
+[       72.739ms]  80: Job Arrived
+[       72.802ms]  81: Job Arrived
+[       73.000ms]  36: Job interrupted because of preemptive scheduling
+[       73.000ms]  37: Job being scheduled now
+[       73.096ms]  82: Job Arrived
+[       73.770ms]  83: Job Arrived
+[       74.000ms]  37: Job interrupted because of preemptive scheduling
+[       74.000ms]   5: Job being scheduled now
+[       74.245ms]  84: Job Arrived
+[       74.879ms]  85: Job Arrived
+[       75.000ms]   5: Job interrupted because of preemptive scheduling
+[       75.000ms]  38: Job being scheduled now
+[       76.000ms]  38: Job interrupted because of preemptive scheduling
+[       76.000ms]  39: Job being scheduled now
+[       77.000ms]  39: Job interrupted because of preemptive scheduling
+[       77.000ms]  40: Job being scheduled now
+[       77.710ms]  86: Job Arrived
+[       78.000ms]  40: Job interrupted because of preemptive scheduling
+[       78.000ms]  10: Job being scheduled now
+[       79.000ms]  10: Job interrupted because of preemptive scheduling
+[       79.000ms]  41: Job being scheduled now
+[       79.438ms]  87: Job Arrived
+[       80.000ms]  41: Job interrupted because of preemptive scheduling
+[       80.000ms]  11: Job being scheduled now
+[       80.323ms]  88: Job Arrived
+[       81.000ms]  11: Job interrupted because of preemptive scheduling
+[       81.000ms]  21: Job being scheduled now
+[       81.081ms]  89: Job Arrived
+[       82.000ms]  21: Job interrupted because of preemptive scheduling
+[       82.000ms]  42: Job being scheduled now
+[       82.162ms]  90: Job Arrived
+[       82.577ms]  91: Job Arrived
+[       83.000ms]  42: Job interrupted because of preemptive scheduling
+[       83.000ms]  43: Job being scheduled now
+[       83.521ms]  92: Job Arrived
+[       84.000ms]  43: Job interrupted because of preemptive scheduling
+[       84.000ms]  22: Job being scheduled now
+[       85.000ms]  22: Job interrupted because of preemptive scheduling
+[       85.000ms]   6: Job being scheduled now
+[       86.000ms]   6: Job interrupted because of preemptive scheduling
+[       86.000ms]  44: Job being scheduled now
+[       86.161ms]  93: Job Arrived
+[       87.000ms]  44: Job interrupted because of preemptive scheduling
+[       87.000ms]  45: Job being scheduled now
+[       87.079ms]  94: Job Arrived
+[       87.255ms]  95: Job Arrived
+[       88.000ms]  45: Job interrupted because of preemptive scheduling
+[       88.000ms]  46: Job being scheduled now
+[       89.000ms]  46: Job interrupted because of preemptive scheduling
+[       89.000ms]  12: Job being scheduled now
+[       89.614ms]  96: Job Arrived
+[       90.000ms]  12: Job interrupted because of preemptive scheduling
+[       90.000ms]  23: Job being scheduled now
+[       91.000ms]  23: Job interrupted because of preemptive scheduling
+[       91.000ms]  47: Job being scheduled now
+[       91.436ms]  97: Job Arrived
+[       91.765ms]  98: Job Arrived
+[       92.000ms]  47: Job interrupted because of preemptive scheduling
+[       92.000ms]  48: Job being scheduled now
+[       92.496ms]  99: Job Arrived
+[       92.796ms] 100: Job Arrived
+[       92.960ms] 101: Job Arrived
+[       93.000ms]  48: Job interrupted because of preemptive scheduling
+[       93.000ms]  49: Job being scheduled now
+[       94.000ms]  49: Job interrupted because of preemptive scheduling
+[       94.000ms]  50: Job being scheduled now
+[       94.172ms] 102: Job Arrived
+[       95.000ms]  50: Job interrupted because of preemptive scheduling
+[       95.000ms]  13: Job being scheduled now
+[       96.000ms]  13: Job interrupted because of preemptive scheduling
+[       96.000ms]  51: Job being scheduled now
+[       96.184ms] 103: Job Arrived
+[       96.438ms] 104: Job Arrived
+[       97.000ms]  51: Job interrupted because of preemptive scheduling
+[       97.000ms]  24: Job being scheduled now
+[       97.902ms] 105: Job Arrived
+[       98.000ms]  24: Job interrupted because of preemptive scheduling
+[       98.000ms]   7: Job being scheduled now
+[       99.000ms]   7: Job interrupted because of preemptive scheduling
+[       99.000ms]  52: Job being scheduled now
+[       99.799ms] 106: Job Arrived
+[       99.977ms] 107: Job Arrived
+[      100.000ms]  52: Job interrupted because of preemptive scheduling
+[      100.000ms]  53: Job being scheduled now
+[      100.294ms] 108: Job Arrived
+[      101.000ms]  53: Job interrupted because of preemptive scheduling
+[      101.000ms]  14: Job being scheduled now
+[      102.000ms]  14: Job interrupted because of preemptive scheduling
+[      102.000ms]  54: Job being scheduled now
+[      103.000ms]  54: Job interrupted because of preemptive scheduling
+[      103.000ms]  25: Job being scheduled now
+[      103.385ms] 109: Job Arrived
+[      104.000ms]  25: Job interrupted because of preemptive scheduling
+[      104.000ms]  55: Job being scheduled now
+[      105.000ms]  55: Job interrupted because of preemptive scheduling
+[      105.000ms]  56: Job being scheduled now
+[      105.334ms] 110: Job Arrived
+[      106.000ms]  56: Job interrupted because of preemptive scheduling
+[      106.000ms]  57: Job being scheduled now
+[      106.362ms] 111: Job Arrived
+[      107.000ms]  57: Job interrupted because of preemptive scheduling
+[      107.000ms]  15: Job being scheduled now
+[      107.250ms] 112: Job Arrived
+[      108.000ms]  15: Job interrupted because of preemptive scheduling
+[      108.000ms]  26: Job being scheduled now
+[      109.000ms]  26: Job interrupted because of preemptive scheduling
+[      109.000ms]  58: Job being scheduled now
+[      109.405ms] 113: Job Arrived
+[      110.000ms]  58: Job interrupted because of preemptive scheduling
+[      110.000ms]  27: Job being scheduled now
+[      111.000ms]  27: Job interrupted because of preemptive scheduling
+[      111.000ms]  59: Job being scheduled now
+[      112.000ms]  59: Job interrupted because of preemptive scheduling
+[      112.000ms]  60: Job being scheduled now
+[      112.510ms] 114: Job Arrived
+[      112.515ms] 115: Job Arrived
+[      112.700ms] 116: Job Arrived
+[      113.000ms]  60: Job interrupted because of preemptive scheduling
+[      113.000ms]  16: Job being scheduled now
+[      113.218ms] 117: Job Arrived
+[      113.232ms] 118: Job Arrived
+[      114.000ms]  16: Job interrupted because of preemptive scheduling
+[      114.000ms]  61: Job being scheduled now
+[      115.000ms]  61: Job interrupted because of preemptive scheduling
+[      115.000ms]  28: Job being scheduled now
+[      115.969ms] 119: Job Arrived
+[      116.000ms]  28: Job interrupted because of preemptive scheduling
+[      116.000ms]  62: Job being scheduled now
+[      116.675ms] 120: Job Arrived
+[      117.000ms]  62: Job interrupted because of preemptive scheduling
+[      117.000ms]  63: Job being scheduled now
+[      117.735ms] 121: Job Arrived
+[      118.000ms]  63: Job interrupted because of preemptive scheduling
+[      118.000ms]   8: Job being scheduled now
+[      118.549ms] 122: Job Arrived
+[      119.000ms]   8: Job interrupted because of preemptive scheduling
+[      119.000ms]  29: Job being scheduled now
+[      120.000ms]  29: Job interrupted because of preemptive scheduling
+[      120.000ms]  64: Job being scheduled now
+[      120.157ms] 123: Job Arrived
+[      120.451ms] 124: Job Arrived
+[      120.774ms] 125: Job Arrived
+[      121.000ms]  64: Job interrupted because of preemptive scheduling
+[      121.000ms]  17: Job being scheduled now
+[      121.029ms] 126: Job Arrived
+[      121.737ms] 127: Job Arrived
+[      122.000ms]  17: Job interrupted because of preemptive scheduling
+[      122.000ms]   3: Job being scheduled now
+[      123.000ms]   3: Job completed
+[      123.000ms]  30: Job being scheduled now
+[      123.951ms] 128: Job Arrived
+[      124.000ms]  30: Job interrupted because of preemptive scheduling
+[      124.000ms]  65: Job being scheduled now
+[      124.543ms] 129: Job Arrived
+[      125.000ms]  65: Job interrupted because of preemptive scheduling
+[      125.000ms]  66: Job being scheduled now
+[      125.018ms] 130: Job Arrived
+[      126.000ms]  66: Job interrupted because of preemptive scheduling
+[      126.000ms]  18: Job being scheduled now
+[      127.000ms]  18: Job interrupted because of preemptive scheduling
+[      127.000ms]  19: Job being scheduled now
+[      128.000ms]  19: Job interrupted because of preemptive scheduling
+[      128.000ms]  67: Job being scheduled now
+[      129.000ms]  67: Job interrupted because of preemptive scheduling
+[      129.000ms]  68: Job being scheduled now
+[      129.536ms] 131: Job Arrived
+[      130.000ms]  68: Job interrupted because of preemptive scheduling
+[      130.000ms]  69: Job being scheduled now
+[      131.000ms]  69: Job interrupted because of preemptive scheduling
+[      131.000ms]   9: Job being scheduled now
+[      132.000ms]   9: Job interrupted because of preemptive scheduling
+[      132.000ms]  70: Job being scheduled now
+[      132.033ms] 132: Job Arrived
+[      133.000ms]  70: Job interrupted because of preemptive scheduling
+[      133.000ms]  31: Job being scheduled now
+[      133.957ms] 133: Job Arrived
+[      134.000ms]  31: Job interrupted because of preemptive scheduling
+[      134.000ms]  71: Job being scheduled now
+[      135.000ms]  71: Job interrupted because of preemptive scheduling
+[      135.000ms]  72: Job being scheduled now
+[      136.000ms]  72: Job interrupted because of preemptive scheduling
+[      136.000ms]  32: Job being scheduled now
+[      136.626ms] 134: Job Arrived
+[      136.716ms] 135: Job Arrived
+[      137.000ms]  32: Job interrupted because of preemptive scheduling
+[      137.000ms]  73: Job being scheduled now
+[      138.000ms]  73: Job interrupted because of preemptive scheduling
+[      138.000ms]  33: Job being scheduled now
+[      139.000ms]  33: Job interrupted because of preemptive scheduling
+[      139.000ms]  74: Job being scheduled now
+[      140.000ms]  74: Job interrupted because of preemptive scheduling
+[      140.000ms]  75: Job being scheduled now
+[      141.000ms]  75: Job interrupted because of preemptive scheduling
+[      141.000ms]  76: Job being scheduled now
+[      141.478ms] 136: Job Arrived
+[      142.000ms]  76: Job interrupted because of preemptive scheduling
+[      142.000ms]   4: Job being scheduled now
+[      142.075ms] 137: Job Arrived
+[      142.224ms] 138: Job Arrived
+[      142.408ms] 139: Job Arrived
+[      143.000ms]   4: Job completed
+[      143.000ms]  77: Job being scheduled now
+[      143.386ms] 140: Job Arrived
+[      143.641ms] 141: Job Arrived
+[      144.000ms]  77: Job interrupted because of preemptive scheduling
+[      144.000ms]  34: Job being scheduled now
+[      145.000ms]  34: Job interrupted because of preemptive scheduling
+[      145.000ms]  20: Job being scheduled now
+[      145.442ms] 142: Job Arrived
+[      145.527ms] 143: Job Arrived
+[      146.000ms]  20: Job interrupted because of preemptive scheduling
+[      146.000ms]  35: Job being scheduled now
+[      146.325ms] 144: Job Arrived
+[      147.000ms]  35: Job interrupted because of preemptive scheduling
+[      147.000ms]  78: Job being scheduled now
+[      147.027ms] 145: Job Arrived
+[      148.000ms]  78: Job interrupted because of preemptive scheduling
+[      148.000ms]  79: Job being scheduled now
+[      148.171ms] 146: Job Arrived
+[      149.000ms]  79: Job interrupted because of preemptive scheduling
+[      149.000ms]  80: Job being scheduled now
+[      150.000ms]  80: Job interrupted because of preemptive scheduling
+[      150.000ms]  81: Job being scheduled now
+[      151.000ms]  81: Job interrupted because of preemptive scheduling
+[      151.000ms]  36: Job being scheduled now
+[      151.919ms] 147: Job Arrived
+[      152.000ms]  36: Job interrupted because of preemptive scheduling
+[      152.000ms]  82: Job being scheduled now
+[      152.590ms] 148: Job Arrived
+[      152.594ms] 149: Job Arrived
+[      152.598ms] 150: Job Arrived
+[      153.000ms]  82: Job interrupted because of preemptive scheduling
+[      153.000ms]  83: Job being scheduled now
+[      153.554ms] 151: Job Arrived
+[      154.000ms]  83: Job interrupted because of preemptive scheduling
+[      154.000ms]  37: Job being scheduled now
+[      154.027ms] 152: Job Arrived
+[      154.977ms] 153: Job Arrived
+[      155.000ms]  37: Job interrupted because of preemptive scheduling
+[      155.000ms]  84: Job being scheduled now
+[      156.000ms]  84: Job interrupted because of preemptive scheduling
+[      156.000ms]  85: Job being scheduled now
+[      157.000ms]  85: Job interrupted because of preemptive scheduling
+[      157.000ms]   5: Job being scheduled now
+[      157.179ms] 154: Job Arrived
+[      157.442ms] 155: Job Arrived
+[      158.000ms]   5: Job completed
+[      158.000ms]  38: Job being scheduled now
+[      159.000ms]  38: Job interrupted because of preemptive scheduling
+[      159.000ms]  39: Job being scheduled now
+[      159.740ms] 156: Job Arrived
+[      159.763ms] 157: Job Arrived
+[      160.000ms]  39: Job interrupted because of preemptive scheduling
+[      160.000ms]  86: Job being scheduled now
+[      160.294ms] 158: Job Arrived
+[      161.000ms]  86: Job interrupted because of preemptive scheduling
+[      161.000ms]  40: Job being scheduled now
+[      162.000ms]  40: Job interrupted because of preemptive scheduling
+[      162.000ms]  10: Job being scheduled now
+[      162.829ms] 159: Job Arrived
+[      162.837ms] 160: Job Arrived
+[      163.000ms]  10: Job interrupted because of preemptive scheduling
+[      163.000ms]  87: Job being scheduled now
+[      164.000ms]  87: Job interrupted because of preemptive scheduling
+[      164.000ms]  41: Job being scheduled now
+[      164.157ms] 161: Job Arrived
+[      165.000ms]  41: Job interrupted because of preemptive scheduling
+[      165.000ms]  88: Job being scheduled now
+[      165.856ms] 162: Job Arrived
+[      166.000ms]  88: Job interrupted because of preemptive scheduling
+[      166.000ms]  11: Job being scheduled now
+[      166.527ms] 163: Job Arrived
+[      166.601ms] 164: Job Arrived
+[      166.815ms] 165: Job Arrived
+[      167.000ms]  11: Job interrupted because of preemptive scheduling
+[      167.000ms]  89: Job being scheduled now
+[      167.355ms] 166: Job Arrived
+[      168.000ms]  89: Job interrupted because of preemptive scheduling
+[      168.000ms]  21: Job being scheduled now
+[      169.000ms]  21: Job interrupted because of preemptive scheduling
+[      169.000ms]  90: Job being scheduled now
+[      169.440ms] 167: Job Arrived
+[      169.623ms] 168: Job Arrived
+[      169.956ms] 169: Job Arrived
+[      170.000ms]  90: Job interrupted because of preemptive scheduling
+[      170.000ms]  91: Job being scheduled now
+[      170.362ms] 170: Job Arrived
+[      171.000ms]  91: Job interrupted because of preemptive scheduling
+[      171.000ms]  42: Job being scheduled now
+[      172.000ms]  42: Job interrupted because of preemptive scheduling
+[      172.000ms]  92: Job being scheduled now
+[      172.495ms] 171: Job Arrived
+[      172.749ms] 172: Job Arrived
+[      172.998ms] 173: Job Arrived
+[      173.000ms]  92: Job interrupted because of preemptive scheduling
+[      173.000ms]  43: Job being scheduled now
+[      174.000ms]  43: Job interrupted because of preemptive scheduling
+[      174.000ms]  22: Job being scheduled now
+[      175.000ms]  22: Job interrupted because of preemptive scheduling
+[      175.000ms]   6: Job being scheduled now
+[      175.333ms] 174: Job Arrived
+[      176.000ms]   6: Job completed
+[      176.000ms]  93: Job being scheduled now
+[      177.000ms]  93: Job interrupted because of preemptive scheduling
+[      177.000ms]  44: Job being scheduled now
+[      177.704ms] 175: Job Arrived
+[      178.000ms]  44: Job interrupted because of preemptive scheduling
+[      178.000ms]  94: Job being scheduled now
+[      179.000ms]  94: Job interrupted because of preemptive scheduling
+[      179.000ms]  95: Job being scheduled now
+[      180.000ms]  95: Job interrupted because of preemptive scheduling
+[      180.000ms]  45: Job being scheduled now
+[      180.318ms] 176: Job Arrived
+[      181.000ms]  45: Job interrupted because of preemptive scheduling
+[      181.000ms]  46: Job being scheduled now
+[      181.348ms] 177: Job Arrived
+[      181.493ms] 178: Job Arrived
+[      182.000ms]  46: Job interrupted because of preemptive scheduling
+[      182.000ms]  96: Job being scheduled now
+[      183.000ms]  96: Job interrupted because of preemptive scheduling
+[      183.000ms]  12: Job being scheduled now
+[      183.380ms] 179: Job Arrived
+[      183.706ms] 180: Job Arrived
+[      184.000ms]  12: Job interrupted because of preemptive scheduling
+[      184.000ms]  23: Job being scheduled now
+[      184.700ms] 181: Job Arrived
+[      185.000ms]  23: Job interrupted because of preemptive scheduling
+[      185.000ms]  97: Job being scheduled now
+[      185.458ms] 182: Job Arrived
+[      185.865ms] 183: Job Arrived
+[      186.000ms]  97: Job interrupted because of preemptive scheduling
+[      186.000ms]  98: Job being scheduled now
+[      187.000ms]  98: Job interrupted because of preemptive scheduling
+[      187.000ms]  47: Job being scheduled now
+[      187.538ms] 184: Job Arrived
+[      187.683ms] 185: Job Arrived
+[      188.000ms]  47: Job interrupted because of preemptive scheduling
+[      188.000ms]  99: Job being scheduled now
+[      188.275ms] 186: Job Arrived
+[      188.277ms] 187: Job Arrived
+[      188.830ms] 188: Job Arrived
+[      189.000ms]  99: Job interrupted because of preemptive scheduling
+[      189.000ms] 100: Job being scheduled now
+[      189.207ms] 189: Job Arrived
+[      189.256ms] 190: Job Arrived
+[      189.385ms] 191: Job Arrived
+[      190.000ms] 100: Job interrupted because of preemptive scheduling
+[      190.000ms] 101: Job being scheduled now
+[      190.332ms] 192: Job Arrived
+[      191.000ms] 101: Job interrupted because of preemptive scheduling
+[      191.000ms]  48: Job being scheduled now
+[      191.180ms] 193: Job Arrived
+[      192.000ms]  48: Job interrupted because of preemptive scheduling
+[      192.000ms]  49: Job being scheduled now
+[      192.469ms] 194: Job Arrived
+[      192.675ms] 195: Job Arrived
+[      192.732ms] 196: Job Arrived
+[      193.000ms]  49: Job interrupted because of preemptive scheduling
+[      193.000ms] 102: Job being scheduled now
+[      193.209ms] 197: Job Arrived
+[      194.000ms] 102: Job interrupted because of preemptive scheduling
+[      194.000ms]  50: Job being scheduled now
+[      194.194ms] 198: Job Arrived
+[      194.692ms] 199: Job Arrived
+[      195.000ms]  50: Job interrupted because of preemptive scheduling
+[      195.000ms]  13: Job being scheduled now
+[      196.000ms]  13: Job interrupted because of preemptive scheduling
+[      196.000ms] 103: Job being scheduled now
+[      197.000ms] 103: Job interrupted because of preemptive scheduling
+[      197.000ms] 104: Job being scheduled now
+[      198.000ms] 104: Job interrupted because of preemptive scheduling
+[      198.000ms]  51: Job being scheduled now
+[      199.000ms]  51: Job interrupted because of preemptive scheduling
+[      199.000ms] 105: Job being scheduled now
+[      199.368ms] 200: Job Arrived
+[      200.000ms] 105: Job interrupted because of preemptive scheduling
+[      200.000ms]  24: Job being scheduled now
+[      200.945ms] 201: Job Arrived
+[      201.000ms]  24: Job interrupted because of preemptive scheduling
+[      201.000ms]   7: Job being scheduled now
+[      201.614ms] 202: Job Arrived
+[      202.000ms]   7: Job completed
+[      202.000ms] 106: Job being scheduled now
+[      202.583ms] 203: Job Arrived
+[      203.000ms] 106: Job interrupted because of preemptive scheduling
+[      203.000ms] 107: Job being scheduled now
+[      204.000ms] 107: Job interrupted because of preemptive scheduling
+[      204.000ms]  52: Job being scheduled now
+[      204.757ms] 204: Job Arrived
+[      205.000ms]  52: Job interrupted because of preemptive scheduling
+[      205.000ms] 108: Job being scheduled now
+[      205.890ms] 205: Job Arrived
+[      206.000ms] 108: Job interrupted because of preemptive scheduling
+[      206.000ms]  53: Job being scheduled now
+[      206.719ms] 206: Job Arrived
+[      207.000ms]  53: Job interrupted because of preemptive scheduling
+[      207.000ms]  14: Job being scheduled now
+[      207.862ms] 207: Job Arrived
+[      208.000ms]  14: Job interrupted because of preemptive scheduling
+[      208.000ms]  54: Job being scheduled now
+[      208.062ms] 208: Job Arrived
+[      208.747ms] 209: Job Arrived
+[      209.000ms]  54: Job interrupted because of preemptive scheduling
+[      209.000ms] 109: Job being scheduled now
+[      209.653ms] 210: Job Arrived
+[      209.844ms] 211: Job Arrived
+[      210.000ms] 109: Job interrupted because of preemptive scheduling
+[      210.000ms]  25: Job being scheduled now
+[      211.000ms]  25: Job interrupted because of preemptive scheduling
+[      211.000ms]  55: Job being scheduled now
+[      211.209ms] 212: Job Arrived
+[      211.254ms] 213: Job Arrived
+[      212.000ms]  55: Job interrupted because of preemptive scheduling
+[      212.000ms] 110: Job being scheduled now
+[      212.053ms] 214: Job Arrived
+[      213.000ms] 110: Job interrupted because of preemptive scheduling
+[      213.000ms]  56: Job being scheduled now
+[      213.151ms] 215: Job Arrived
+[      213.626ms] 216: Job Arrived
+[      214.000ms]  56: Job interrupted because of preemptive scheduling
+[      214.000ms] 111: Job being scheduled now
+[      215.000ms] 111: Job interrupted because of preemptive scheduling
+[      215.000ms]  57: Job being scheduled now
+[      216.000ms]  57: Job interrupted because of preemptive scheduling
+[      216.000ms] 112: Job being scheduled now
+[      216.964ms] 217: Job Arrived
+[      217.000ms] 112: Job interrupted because of preemptive scheduling
+[      217.000ms]  15: Job being scheduled now
+[      217.374ms] 218: Job Arrived
+[      218.000ms]  15: Job interrupted because of preemptive scheduling
+[      218.000ms]  26: Job being scheduled now
+[      219.000ms]  26: Job interrupted because of preemptive scheduling
+[      219.000ms] 113: Job being scheduled now
+[      220.000ms] 113: Job interrupted because of preemptive scheduling
+[      220.000ms]  58: Job being scheduled now
+[      220.684ms] 219: Job Arrived
+[      221.000ms]  58: Job interrupted because of preemptive scheduling
+[      221.000ms]  27: Job being scheduled now
+[      222.000ms]  27: Job interrupted because of preemptive scheduling
+[      222.000ms]  59: Job being scheduled now
+[      222.006ms] 220: Job Arrived
+[      223.000ms]  59: Job interrupted because of preemptive scheduling
+[      223.000ms] 114: Job being scheduled now
+[      223.104ms] 221: Job Arrived
+[      223.546ms] 222: Job Arrived
+[      224.000ms] 114: Job interrupted because of preemptive scheduling
+[      224.000ms] 115: Job being scheduled now
+[      224.291ms] 223: Job Arrived
+[      224.739ms] 224: Job Arrived
+[      225.000ms] 115: Job interrupted because of preemptive scheduling
+[      225.000ms] 116: Job being scheduled now
+[      226.000ms] 116: Job interrupted because of preemptive scheduling
+[      226.000ms]  60: Job being scheduled now
+[      226.423ms] 225: Job Arrived
+[      227.000ms]  60: Job interrupted because of preemptive scheduling
+[      227.000ms] 117: Job being scheduled now
+[      227.455ms] 226: Job Arrived
+[      228.000ms] 117: Job interrupted because of preemptive scheduling
+[      228.000ms] 118: Job being scheduled now
+[      228.917ms] 227: Job Arrived
+[      228.969ms] 228: Job Arrived
+[      229.000ms] 118: Job interrupted because of preemptive scheduling
+[      229.000ms]  16: Job being scheduled now
+[      230.000ms]  16: Job interrupted because of preemptive scheduling
+[      230.000ms]  61: Job being scheduled now
+[      230.347ms] 229: Job Arrived
+[      231.000ms]  61: Job interrupted because of preemptive scheduling
+[      231.000ms] 119: Job being scheduled now
+[      231.808ms] 230: Job Arrived
+[      232.000ms] 119: Job interrupted because of preemptive scheduling
+[      232.000ms]  28: Job being scheduled now
+[      233.000ms]  28: Job interrupted because of preemptive scheduling
+[      233.000ms] 120: Job being scheduled now
+[      234.000ms] 120: Job interrupted because of preemptive scheduling
+[      234.000ms]  62: Job being scheduled now
+[      234.326ms] 231: Job Arrived
+[      235.000ms]  62: Job interrupted because of preemptive scheduling
+[      235.000ms] 121: Job being scheduled now
+[      235.306ms] 232: Job Arrived
+[      236.000ms] 121: Job interrupted because of preemptive scheduling
+[      236.000ms]  63: Job being scheduled now
+[      236.059ms] 233: Job Arrived
+[      236.641ms] 234: Job Arrived
+[      237.000ms]  63: Job interrupted because of preemptive scheduling
+[      237.000ms] 122: Job being scheduled now
+[      238.000ms] 122: Job interrupted because of preemptive scheduling
+[      238.000ms]   8: Job being scheduled now
+[      239.000ms]   8: Job completed
+[      239.000ms]  29: Job being scheduled now
+[      239.371ms] 235: Job Arrived
+[      239.975ms] 236: Job Arrived
+[      240.000ms]  29: Job interrupted because of preemptive scheduling
+[      240.000ms] 123: Job being scheduled now
+[      240.189ms] 237: Job Arrived
+[      240.968ms] 238: Job Arrived
+[      241.000ms] 123: Job interrupted because of preemptive scheduling
+[      241.000ms] 124: Job being scheduled now
+[      242.000ms] 124: Job interrupted because of preemptive scheduling
+[      242.000ms] 125: Job being scheduled now
+[      243.000ms] 125: Job interrupted because of preemptive scheduling
+[      243.000ms]  64: Job being scheduled now
+[      243.387ms] 239: Job Arrived
+[      243.460ms] 240: Job Arrived
+[      244.000ms]  64: Job interrupted because of preemptive scheduling
+[      244.000ms] 126: Job being scheduled now
+[      245.000ms] 126: Job interrupted because of preemptive scheduling
+[      245.000ms] 127: Job being scheduled now
+[      245.140ms] 241: Job Arrived
+[      245.170ms] 242: Job Arrived
+[      245.799ms] 243: Job Arrived
+[      246.000ms] 127: Job interrupted because of preemptive scheduling
+[      246.000ms]  17: Job being scheduled now
+[      247.000ms]  17: Job interrupted because of preemptive scheduling
+[      247.000ms] 128: Job being scheduled now
+[      247.266ms] 244: Job Arrived
+[      247.668ms] 245: Job Arrived
+[      248.000ms] 128: Job interrupted because of preemptive scheduling
+[      248.000ms]  30: Job being scheduled now
+[      248.726ms] 246: Job Arrived
+[      248.804ms] 247: Job Arrived
+[      249.000ms]  30: Job interrupted because of preemptive scheduling
+[      249.000ms] 129: Job being scheduled now
+[      250.000ms] 129: Job interrupted because of preemptive scheduling
+[      250.000ms]  65: Job being scheduled now
+[      250.292ms] 248: Job Arrived
+[      250.526ms] 249: Job Arrived
+[      251.000ms]  65: Job interrupted because of preemptive scheduling
+[      251.000ms] 130: Job being scheduled now
+[      252.000ms] 130: Job interrupted because of preemptive scheduling
+[      252.000ms]  66: Job being scheduled now
+[      253.000ms]  66: Job interrupted because of preemptive scheduling
+[      253.000ms]  18: Job being scheduled now
+[      253.084ms] 250: Job Arrived
+[      253.847ms] 251: Job Arrived
+[      254.000ms]  18: Job interrupted because of preemptive scheduling
+[      254.000ms]  19: Job being scheduled now
+[      254.351ms] 252: Job Arrived
+[      255.000ms]  19: Job interrupted because of preemptive scheduling
+[      255.000ms]  67: Job being scheduled now
+[      255.555ms] 253: Job Arrived
+[      256.000ms]  67: Job interrupted because of preemptive scheduling
+[      256.000ms] 131: Job being scheduled now
+[      256.168ms] 254: Job Arrived
+[      257.000ms] 131: Job interrupted because of preemptive scheduling
+[      257.000ms]  68: Job being scheduled now
+[      258.000ms]  68: Job interrupted because of preemptive scheduling
+[      258.000ms]  69: Job being scheduled now
+[      258.128ms] 255: Job Arrived
+[      258.370ms] 256: Job Arrived
+[      259.000ms]  69: Job interrupted because of preemptive scheduling
+[      259.000ms]   9: Job being scheduled now
+[      259.039ms] 257: Job Arrived
+[      259.344ms] 258: Job Arrived
+[      259.946ms] 259: Job Arrived
+[      260.000ms]   9: Job completed
+[      260.000ms] 132: Job being scheduled now
+[      261.000ms] 132: Job interrupted because of preemptive scheduling
+[      261.000ms]  70: Job being scheduled now
+[      261.252ms] 260: Job Arrived
+[      262.000ms]  70: Job interrupted because of preemptive scheduling
+[      262.000ms] 133: Job being scheduled now
+[      263.000ms] 133: Job interrupted because of preemptive scheduling
+[      263.000ms]  31: Job being scheduled now
+[      263.263ms] 261: Job Arrived
+[      263.322ms] 262: Job Arrived
+[      264.000ms]  31: Job interrupted because of preemptive scheduling
+[      264.000ms]  71: Job being scheduled now
+[      264.565ms] 263: Job Arrived
+[      265.000ms]  71: Job interrupted because of preemptive scheduling
+[      265.000ms]  72: Job being scheduled now
+[      266.000ms]  72: Job interrupted because of preemptive scheduling
+[      266.000ms] 134: Job being scheduled now
+[      266.285ms] 264: Job Arrived
+[      267.000ms] 134: Job interrupted because of preemptive scheduling
+[      267.000ms] 135: Job being scheduled now
+[      267.742ms] 265: Job Arrived
+[      268.000ms] 135: Job interrupted because of preemptive scheduling
+[      268.000ms]  32: Job being scheduled now
+[      268.091ms] 266: Job Arrived
+[      268.666ms] 267: Job Arrived
+[      269.000ms]  32: Job interrupted because of preemptive scheduling
+[      269.000ms]  73: Job being scheduled now
+[      269.755ms] 268: Job Arrived
+[      270.000ms]  73: Job interrupted because of preemptive scheduling
+[      270.000ms]  33: Job being scheduled now
+[      271.000ms]  33: Job interrupted because of preemptive scheduling
+[      271.000ms]  74: Job being scheduled now
+[      271.793ms] 269: Job Arrived
+[      272.000ms]  74: Job interrupted because of preemptive scheduling
+[      272.000ms]  75: Job being scheduled now
+[      272.013ms] 270: Job Arrived
+[      272.519ms] 271: Job Arrived
+[      272.972ms] 272: Job Arrived
+[      273.000ms]  75: Job interrupted because of preemptive scheduling
+[      273.000ms] 136: Job being scheduled now
+[      273.926ms] 273: Job Arrived
+[      274.000ms] 136: Job interrupted because of preemptive scheduling
+[      274.000ms]  76: Job being scheduled now
+[      274.181ms] 274: Job Arrived
+[      275.000ms]  76: Job interrupted because of preemptive scheduling
+[      275.000ms] 137: Job being scheduled now
+[      275.266ms] 275: Job Arrived
+[      276.000ms] 137: Job interrupted because of preemptive scheduling
+[      276.000ms] 138: Job being scheduled now
+[      277.000ms] 138: Job interrupted because of preemptive scheduling
+[      277.000ms] 139: Job being scheduled now
+[      278.000ms] 139: Job interrupted because of preemptive scheduling
+[      278.000ms] 140: Job being scheduled now
+[      278.159ms] 276: Job Arrived
+[      279.000ms] 140: Job interrupted because of preemptive scheduling
+[      279.000ms] 141: Job being scheduled now
+[      280.000ms] 141: Job interrupted because of preemptive scheduling
+[      280.000ms]  77: Job being scheduled now
+[      280.010ms] 277: Job Arrived
+[      281.000ms]  77: Job interrupted because of preemptive scheduling
+[      281.000ms]  34: Job being scheduled now
+[      281.773ms] 278: Job Arrived
+[      282.000ms]  34: Job interrupted because of preemptive scheduling
+[      282.000ms] 142: Job being scheduled now
+[      283.000ms] 142: Job interrupted because of preemptive scheduling
+[      283.000ms] 143: Job being scheduled now
+[      283.856ms] 279: Job Arrived
+[      284.000ms] 143: Job interrupted because of preemptive scheduling
+[      284.000ms]  20: Job being scheduled now
+[      285.000ms]  20: Job interrupted because of preemptive scheduling
+[      285.000ms] 144: Job being scheduled now
+[      285.532ms] 280: Job Arrived
+[      286.000ms] 144: Job interrupted because of preemptive scheduling
+[      286.000ms]  35: Job being scheduled now
+[      286.624ms] 281: Job Arrived
+[      286.856ms] 282: Job Arrived
+[      287.000ms]  35: Job interrupted because of preemptive scheduling
+[      287.000ms] 145: Job being scheduled now
+[      288.000ms] 145: Job interrupted because of preemptive scheduling
+[      288.000ms]  78: Job being scheduled now
+[      289.000ms]  78: Job interrupted because of preemptive scheduling
+[      289.000ms] 146: Job being scheduled now
+[      290.000ms] 146: Job interrupted because of preemptive scheduling
+[      290.000ms]  79: Job being scheduled now
+[      290.374ms] 283: Job Arrived
+[      290.795ms] 284: Job Arrived
+[      290.884ms] 285: Job Arrived
+[      291.000ms]  79: Job interrupted because of preemptive scheduling
+[      291.000ms]  80: Job being scheduled now
+[      291.448ms] 286: Job Arrived
+[      292.000ms]  80: Job interrupted because of preemptive scheduling
+[      292.000ms]  81: Job being scheduled now
+[      293.000ms]  81: Job interrupted because of preemptive scheduling
+[      293.000ms] 147: Job being scheduled now
+[      294.000ms] 147: Job interrupted because of preemptive scheduling
+[      294.000ms]  36: Job being scheduled now
+[      294.390ms] 287: Job Arrived
+[      295.000ms]  36: Job interrupted because of preemptive scheduling
+[      295.000ms] 148: Job being scheduled now
+[      295.302ms] 288: Job Arrived
+[      295.838ms] 289: Job Arrived
+[      296.000ms] 148: Job interrupted because of preemptive scheduling
+[      296.000ms] 149: Job being scheduled now
+[      296.435ms] 290: Job Arrived
+[      297.000ms] 149: Job interrupted because of preemptive scheduling
+[      297.000ms] 150: Job being scheduled now
+[      298.000ms] 150: Job interrupted because of preemptive scheduling
+[      298.000ms]  82: Job being scheduled now
+[      298.951ms] 291: Job Arrived
+[      299.000ms]  82: Job interrupted because of preemptive scheduling
+[      299.000ms] 151: Job being scheduled now
+[      299.266ms] 292: Job Arrived
+[      299.327ms] 293: Job Arrived
+[      299.644ms] 294: Job Arrived
+[      299.883ms] 295: Job Arrived
+[      300.000ms] 151: Job interrupted because of preemptive scheduling
+[      300.000ms]  83: Job being scheduled now
+[      301.000ms]  83: Job interrupted because of preemptive scheduling
+[      301.000ms] 152: Job being scheduled now
+[      301.669ms] 296: Job Arrived
+[      301.776ms] 297: Job Arrived
+[      301.787ms] 298: Job Arrived
+[      302.000ms] 152: Job interrupted because of preemptive scheduling
+[      302.000ms] 153: Job being scheduled now
+[      302.533ms] 299: Job Arrived
+[      303.000ms] 153: Job interrupted because of preemptive scheduling
+[      303.000ms]  37: Job being scheduled now
+[      303.998ms] 300: Job Arrived
+[      304.000ms]  37: Job interrupted because of preemptive scheduling
+[      304.000ms]  84: Job being scheduled now
+[      305.000ms]  84: Job interrupted because of preemptive scheduling
+[      305.000ms]  85: Job being scheduled now
+[      305.696ms] 301: Job Arrived
+[      305.837ms] 302: Job Arrived
+[      306.000ms]  85: Job interrupted because of preemptive scheduling
+[      306.000ms] 154: Job being scheduled now
+[      306.639ms] 303: Job Arrived
+[      307.000ms] 154: Job interrupted because of preemptive scheduling
+[      307.000ms] 155: Job being scheduled now
+[      307.854ms] 304: Job Arrived
+[      308.000ms] 155: Job interrupted because of preemptive scheduling
+[      308.000ms]  38: Job being scheduled now
+[      308.681ms] 305: Job Arrived
+[      309.000ms]  38: Job interrupted because of preemptive scheduling
+[      309.000ms] 156: Job being scheduled now
+[      309.556ms] 306: Job Arrived
+[      310.000ms] 156: Job interrupted because of preemptive scheduling
+[      310.000ms] 157: Job being scheduled now
+[      310.054ms] 307: Job Arrived
+[      310.353ms] 308: Job Arrived
+[      311.000ms] 157: Job interrupted because of preemptive scheduling
+[      311.000ms]  39: Job being scheduled now
+[      311.856ms] 309: Job Arrived
+[      312.000ms]  39: Job interrupted because of preemptive scheduling
+[      312.000ms] 158: Job being scheduled now
+[      312.447ms] 310: Job Arrived
+[      313.000ms] 158: Job interrupted because of preemptive scheduling
+[      313.000ms]  86: Job being scheduled now
+[      313.928ms] 311: Job Arrived
+[      314.000ms]  86: Job interrupted because of preemptive scheduling
+[      314.000ms]  40: Job being scheduled now
+[      314.294ms] 312: Job Arrived
+[      314.392ms] 313: Job Arrived
+[      315.000ms]  40: Job interrupted because of preemptive scheduling
+[      315.000ms] 159: Job being scheduled now
+[      315.541ms] 314: Job Arrived
+[      315.845ms] 315: Job Arrived
+[      316.000ms] 159: Job interrupted because of preemptive scheduling
+[      316.000ms] 160: Job being scheduled now
+[      317.000ms] 160: Job interrupted because of preemptive scheduling
+[      317.000ms]  10: Job being scheduled now
+[      317.067ms] 316: Job Arrived
+[      317.274ms] 317: Job Arrived
+[      317.831ms] 318: Job Arrived
+[      318.000ms]  10: Job completed
+[      318.000ms]  87: Job being scheduled now
+[      319.000ms]  87: Job interrupted because of preemptive scheduling
+[      319.000ms] 161: Job being scheduled now
+[      320.000ms] 161: Job interrupted because of preemptive scheduling
+[      320.000ms]  41: Job being scheduled now
+[      320.170ms] 319: Job Arrived
+[      320.789ms] 320: Job Arrived
+[      320.923ms] 321: Job Arrived
+[      321.000ms]  41: Job interrupted because of preemptive scheduling
+[      321.000ms] 162: Job being scheduled now
+[      322.000ms] 162: Job interrupted because of preemptive scheduling
+[      322.000ms]  88: Job being scheduled now
+[      322.573ms] 322: Job Arrived
+[      322.829ms] 323: Job Arrived
+[      322.848ms] 324: Job Arrived
+[      323.000ms]  88: Job interrupted because of preemptive scheduling
+[      323.000ms] 163: Job being scheduled now
+[      323.112ms] 325: Job Arrived
+[      323.143ms] 326: Job Arrived
+[      324.000ms] 163: Job interrupted because of preemptive scheduling
+[      324.000ms] 164: Job being scheduled now
+[      324.767ms] 327: Job Arrived
+[      325.000ms] 164: Job interrupted because of preemptive scheduling
+[      325.000ms] 165: Job being scheduled now
+[      325.571ms] 328: Job Arrived
+[      325.722ms] 329: Job Arrived
+[      326.000ms] 165: Job interrupted because of preemptive scheduling
+[      326.000ms]  11: Job being scheduled now
+[      327.000ms]  11: Job completed
+[      327.000ms] 166: Job being scheduled now
+[      327.338ms] 330: Job Arrived
+[      328.000ms] 166: Job interrupted because of preemptive scheduling
+[      328.000ms]  89: Job being scheduled now
+[      328.129ms] 331: Job Arrived
+[      328.144ms] 332: Job Arrived
+[      329.000ms]  89: Job interrupted because of preemptive scheduling
+[      329.000ms]  21: Job being scheduled now
+[      329.017ms] 333: Job Arrived
+[      330.000ms]  21: Job interrupted because of preemptive scheduling
+[      330.000ms] 167: Job being scheduled now
+[      330.099ms] 334: Job Arrived
+[      330.238ms] 335: Job Arrived
+[      330.682ms] 336: Job Arrived
+[      330.861ms] 337: Job Arrived
+[      331.000ms] 167: Job interrupted because of preemptive scheduling
+[      331.000ms] 168: Job being scheduled now
+[      332.000ms] 168: Job interrupted because of preemptive scheduling
+[      332.000ms] 169: Job being scheduled now
+[      333.000ms] 169: Job interrupted because of preemptive scheduling
+[      333.000ms]  90: Job being scheduled now
+[      333.595ms] 338: Job Arrived
+[      334.000ms]  90: Job interrupted because of preemptive scheduling
+[      334.000ms] 170: Job being scheduled now
+[      335.000ms] 170: Job interrupted because of preemptive scheduling
+[      335.000ms]  91: Job being scheduled now
+[      335.161ms] 339: Job Arrived
+[      335.789ms] 340: Job Arrived
+[      335.815ms] 341: Job Arrived
+[      335.934ms] 342: Job Arrived
+[      336.000ms]  91: Job interrupted because of preemptive scheduling
+[      336.000ms]  42: Job being scheduled now
+[      337.000ms]  42: Job interrupted because of preemptive scheduling
+[      337.000ms] 171: Job being scheduled now
+[      337.625ms] 343: Job Arrived
+[      338.000ms] 171: Job interrupted because of preemptive scheduling
+[      338.000ms] 172: Job being scheduled now
+[      338.350ms] 344: Job Arrived
+[      338.553ms] 345: Job Arrived
+[      338.843ms] 346: Job Arrived
+[      339.000ms] 172: Job interrupted because of preemptive scheduling
+[      339.000ms] 173: Job being scheduled now
+[      339.899ms] 347: Job Arrived
+[      340.000ms] 173: Job interrupted because of preemptive scheduling
+[      340.000ms]  92: Job being scheduled now
+[      341.000ms]  92: Job interrupted because of preemptive scheduling
+[      341.000ms]  43: Job being scheduled now
+[      341.520ms] 348: Job Arrived
+[      342.000ms]  43: Job interrupted because of preemptive scheduling
+[      342.000ms]  22: Job being scheduled now
+[      343.000ms]  22: Job interrupted because of preemptive scheduling
+[      343.000ms] 174: Job being scheduled now
+[      343.636ms] 349: Job Arrived
+[      344.000ms] 174: Job interrupted because of preemptive scheduling
+[      344.000ms]  93: Job being scheduled now
+[      344.338ms] 350: Job Arrived
+[      344.363ms] 351: Job Arrived
+[      344.908ms] 352: Job Arrived
+[      345.000ms]  93: Job interrupted because of preemptive scheduling
+[      345.000ms] 175: Job being scheduled now
+[      346.000ms] 175: Job interrupted because of preemptive scheduling
+[      346.000ms]  44: Job being scheduled now
+[      346.373ms] 353: Job Arrived
+[      346.378ms] 354: Job Arrived
+[      346.711ms] 355: Job Arrived
+[      347.000ms]  44: Job interrupted because of preemptive scheduling
+[      347.000ms]  94: Job being scheduled now
+[      347.429ms] 356: Job Arrived
+[      347.504ms] 357: Job Arrived
+[      348.000ms]  94: Job interrupted because of preemptive scheduling
+[      348.000ms]  95: Job being scheduled now
+[      349.000ms]  95: Job interrupted because of preemptive scheduling
+[      349.000ms] 176: Job being scheduled now
+[      349.241ms] 358: Job Arrived
+[      350.000ms] 176: Job interrupted because of preemptive scheduling
+[      350.000ms]  45: Job being scheduled now
+[      350.932ms] 359: Job Arrived
+[      351.000ms]  45: Job interrupted because of preemptive scheduling
+[      351.000ms] 177: Job being scheduled now
+[      352.000ms] 177: Job interrupted because of preemptive scheduling
+[      352.000ms] 178: Job being scheduled now
+[      352.438ms] 360: Job Arrived
+[      353.000ms] 178: Job interrupted because of preemptive scheduling
+[      353.000ms]  46: Job being scheduled now
+[      354.000ms]  46: Job interrupted because of preemptive scheduling
+[      354.000ms]  96: Job being scheduled now
+[      354.350ms] 361: Job Arrived
+[      355.000ms]  96: Job interrupted because of preemptive scheduling
+[      355.000ms] 179: Job being scheduled now
+[      355.484ms] 362: Job Arrived
+[      356.000ms] 179: Job interrupted because of preemptive scheduling
+[      356.000ms] 180: Job being scheduled now
+[      357.000ms] 180: Job interrupted because of preemptive scheduling
+[      357.000ms]  12: Job being scheduled now
+[      358.000ms]  12: Job completed
+[      358.000ms] 181: Job being scheduled now
+[      358.390ms] 363: Job Arrived
+[      358.884ms] 364: Job Arrived
+[      359.000ms] 181: Job interrupted because of preemptive scheduling
+[      359.000ms]  23: Job being scheduled now
+[      360.000ms]  23: Job interrupted because of preemptive scheduling
+[      360.000ms] 182: Job being scheduled now
+[      361.000ms] 182: Job interrupted because of preemptive scheduling
+[      361.000ms] 183: Job being scheduled now
+[      361.704ms] 365: Job Arrived
+[      361.713ms] 366: Job Arrived
+[      362.000ms] 183: Job interrupted because of preemptive scheduling
+[      362.000ms]  97: Job being scheduled now
+[      363.000ms]  97: Job interrupted because of preemptive scheduling
+[      363.000ms]  98: Job being scheduled now
+[      364.000ms]  98: Job interrupted because of preemptive scheduling
+[      364.000ms] 184: Job being scheduled now
+[      364.477ms] 367: Job Arrived
+[      364.792ms] 368: Job Arrived
+[      365.000ms] 184: Job interrupted because of preemptive scheduling
+[      365.000ms] 185: Job being scheduled now
+[      365.241ms] 369: Job Arrived
+[      365.565ms] 370: Job Arrived
+[      365.768ms] 371: Job Arrived
+[      366.000ms] 185: Job interrupted because of preemptive scheduling
+[      366.000ms]  47: Job being scheduled now
+[      367.000ms]  47: Job interrupted because of preemptive scheduling
+[      367.000ms] 186: Job being scheduled now
+[      368.000ms] 186: Job interrupted because of preemptive scheduling
+[      368.000ms] 187: Job being scheduled now
+[      368.039ms] 372: Job Arrived
+[      368.522ms] 373: Job Arrived
+[      368.944ms] 374: Job Arrived
+[      369.000ms] 187: Job interrupted because of preemptive scheduling
+[      369.000ms] 188: Job being scheduled now
+[      369.165ms] 375: Job Arrived
+[      369.674ms] 376: Job Arrived
+[      369.906ms] 377: Job Arrived
+[      370.000ms] 188: Job interrupted because of preemptive scheduling
+[      370.000ms]  99: Job being scheduled now
+[      370.326ms] 378: Job Arrived
+[      370.747ms] 379: Job Arrived
+[      370.760ms] 380: Job Arrived
+[      371.000ms]  99: Job interrupted because of preemptive scheduling
+[      371.000ms] 189: Job being scheduled now
+[      371.274ms] 381: Job Arrived
+[      372.000ms] 189: Job interrupted because of preemptive scheduling
+[      372.000ms] 190: Job being scheduled now
+[      372.019ms] 382: Job Arrived
+[      373.000ms] 190: Job interrupted because of preemptive scheduling
+[      373.000ms] 191: Job being scheduled now
+[      373.959ms] 383: Job Arrived
+[      374.000ms] 191: Job interrupted because of preemptive scheduling
+[      374.000ms] 100: Job being scheduled now
+[      374.620ms] 384: Job Arrived
+[      375.000ms] 100: Job interrupted because of preemptive scheduling
+[      375.000ms] 192: Job being scheduled now
+[      376.000ms] 192: Job interrupted because of preemptive scheduling
+[      376.000ms] 101: Job being scheduled now
+[      376.623ms] 385: Job Arrived
+[      376.866ms] 386: Job Arrived
+[      377.000ms] 101: Job interrupted because of preemptive scheduling
+[      377.000ms] 193: Job being scheduled now
+[      377.241ms] 387: Job Arrived
+[      378.000ms] 193: Job interrupted because of preemptive scheduling
+[      378.000ms]  48: Job being scheduled now
+[      378.833ms] 388: Job Arrived
+[      379.000ms]  48: Job interrupted because of preemptive scheduling
+[      379.000ms] 194: Job being scheduled now
+[      379.241ms] 389: Job Arrived
+[      379.661ms] 390: Job Arrived
+[      380.000ms] 194: Job interrupted because of preemptive scheduling
+[      380.000ms] 195: Job being scheduled now
+[      380.041ms] 391: Job Arrived
+[      380.798ms] 392: Job Arrived
+[      381.000ms] 195: Job interrupted because of preemptive scheduling
+[      381.000ms] 196: Job being scheduled now
+[      382.000ms] 196: Job interrupted because of preemptive scheduling
+[      382.000ms]  49: Job being scheduled now
+[      382.392ms] 393: Job Arrived
+[      382.918ms] 394: Job Arrived
+[      383.000ms]  49: Job interrupted because of preemptive scheduling
+[      383.000ms] 197: Job being scheduled now
+[      383.427ms] 395: Job Arrived
+[      383.546ms] 396: Job Arrived
+[      384.000ms] 197: Job interrupted because of preemptive scheduling
+[      384.000ms] 102: Job being scheduled now
+[      385.000ms] 102: Job interrupted because of preemptive scheduling
+[      385.000ms] 198: Job being scheduled now
+[      386.000ms] 198: Job interrupted because of preemptive scheduling
+[      386.000ms] 199: Job being scheduled now
+[      386.474ms] 397: Job Arrived
+[      387.000ms] 199: Job interrupted because of preemptive scheduling
+[      387.000ms]  50: Job being scheduled now
+[      387.379ms] 398: Job Arrived
+[      388.000ms]  50: Job interrupted because of preemptive scheduling
+[      388.000ms]  13: Job being scheduled now
+[      388.400ms] 399: Job Arrived
+[      388.520ms] 400: Job Arrived
+[      389.000ms]  13: Job completed
+[      389.000ms] 103: Job being scheduled now
+[      389.218ms] 401: Job Arrived
+[      390.000ms] 103: Job interrupted because of preemptive scheduling
+[      390.000ms] 104: Job being scheduled now
+[      390.465ms] 402: Job Arrived
+[      391.000ms] 104: Job interrupted because of preemptive scheduling
+[      391.000ms]  51: Job being scheduled now
+[      391.027ms] 403: Job Arrived
+[      392.000ms]  51: Job interrupted because of preemptive scheduling
+[      392.000ms] 200: Job being scheduled now
+[      393.000ms] 200: Job interrupted because of preemptive scheduling
+[      393.000ms] 105: Job being scheduled now
+[      393.149ms] 404: Job Arrived
+[      394.000ms] 105: Job interrupted because of preemptive scheduling
+[      394.000ms] 201: Job being scheduled now
+[      394.938ms] 405: Job Arrived
+[      395.000ms] 201: Job interrupted because of preemptive scheduling
+[      395.000ms]  24: Job being scheduled now
+[      395.672ms] 406: Job Arrived
+[      396.000ms]  24: Job interrupted because of preemptive scheduling
+[      396.000ms] 202: Job being scheduled now
+[      396.467ms] 407: Job Arrived
+[      397.000ms] 202: Job interrupted because of preemptive scheduling
+[      397.000ms] 203: Job being scheduled now
+[      398.000ms] 203: Job interrupted because of preemptive scheduling
+[      398.000ms] 106: Job being scheduled now
+[      398.265ms] 408: Job Arrived
+[      398.456ms] 409: Job Arrived
+[      399.000ms] 106: Job interrupted because of preemptive scheduling
+[      399.000ms] 107: Job being scheduled now
+[      399.366ms] 410: Job Arrived
+[      399.868ms] 411: Job Arrived
+[      400.000ms] 107: Job interrupted because of preemptive scheduling
+[      400.000ms] 204: Job being scheduled now
+[      400.196ms] 412: Job Arrived
+[      401.000ms] 204: Job interrupted because of preemptive scheduling
+[      401.000ms]  52: Job being scheduled now
+[      402.000ms]  52: Job interrupted because of preemptive scheduling
+[      402.000ms] 205: Job being scheduled now
+[      402.433ms] 413: Job Arrived
+[      402.785ms] 414: Job Arrived
+[      403.000ms] 205: Job interrupted because of preemptive scheduling
+[      403.000ms] 108: Job being scheduled now
+[      404.000ms] 108: Job interrupted because of preemptive scheduling
+[      404.000ms] 206: Job being scheduled now
+[      404.445ms] 415: Job Arrived
+[      405.000ms] 206: Job interrupted because of preemptive scheduling
+[      405.000ms]  53: Job being scheduled now
+[      406.000ms]  53: Job interrupted because of preemptive scheduling
+[      406.000ms] 207: Job being scheduled now
+[      407.000ms] 207: Job interrupted because of preemptive scheduling
+[      407.000ms]  14: Job being scheduled now
+[      407.146ms] 416: Job Arrived
+[      407.897ms] 417: Job Arrived
+[      408.000ms]  14: Job completed
+[      408.000ms] 208: Job being scheduled now
+[      408.111ms] 418: Job Arrived
+[      408.433ms] 419: Job Arrived
+[      409.000ms] 208: Job interrupted because of preemptive scheduling
+[      409.000ms] 209: Job being scheduled now
+[      410.000ms] 209: Job interrupted because of preemptive scheduling
+[      410.000ms]  54: Job being scheduled now
+[      411.000ms]  54: Job interrupted because of preemptive scheduling
+[      411.000ms] 210: Job being scheduled now
+[      411.862ms] 420: Job Arrived
+[      412.000ms] 210: Job interrupted because of preemptive scheduling
+[      412.000ms] 211: Job being scheduled now
+[      412.393ms] 421: Job Arrived
+[      413.000ms] 211: Job interrupted because of preemptive scheduling
+[      413.000ms] 109: Job being scheduled now
+[      414.000ms] 109: Job interrupted because of preemptive scheduling
+[      414.000ms]  25: Job being scheduled now
+[      415.000ms]  25: Job interrupted because of preemptive scheduling
+[      415.000ms] 212: Job being scheduled now
+[      415.376ms] 422: Job Arrived
+[      415.499ms] 423: Job Arrived
+[      416.000ms] 212: Job interrupted because of preemptive scheduling
+[      416.000ms] 213: Job being scheduled now
+[      416.529ms] 424: Job Arrived
+[      416.897ms] 425: Job Arrived
+[      417.000ms] 213: Job interrupted because of preemptive scheduling
+[      417.000ms]  55: Job being scheduled now
+[      417.527ms] 426: Job Arrived
+[      418.000ms]  55: Job interrupted because of preemptive scheduling
+[      418.000ms] 214: Job being scheduled now
+[      419.000ms] 214: Job interrupted because of preemptive scheduling
+[      419.000ms] 110: Job being scheduled now
+[      420.000ms] 110: Job interrupted because of preemptive scheduling
+[      420.000ms] 215: Job being scheduled now
+[      421.000ms] 215: Job interrupted because of preemptive scheduling
+[      421.000ms] 216: Job being scheduled now
+[      422.000ms] 216: Job interrupted because of preemptive scheduling
+[      422.000ms]  56: Job being scheduled now
+[      423.000ms]  56: Job interrupted because of preemptive scheduling
+[      423.000ms] 111: Job being scheduled now
+[      423.027ms] 427: Job Arrived
+[      423.033ms] 428: Job Arrived
+[      424.000ms] 111: Job interrupted because of preemptive scheduling
+[      424.000ms]  57: Job being scheduled now
+[      425.000ms]  57: Job interrupted because of preemptive scheduling
+[      425.000ms] 217: Job being scheduled now
+[      425.697ms] 429: Job Arrived
+[      425.736ms] 430: Job Arrived
+[      426.000ms] 217: Job interrupted because of preemptive scheduling
+[      426.000ms] 112: Job being scheduled now
+[      426.305ms] 431: Job Arrived
+[      426.921ms] 432: Job Arrived
+[      427.000ms] 112: Job interrupted because of preemptive scheduling
+[      427.000ms] 218: Job being scheduled now
+[      427.494ms] 433: Job Arrived
+[      427.892ms] 434: Job Arrived
+[      427.984ms] 435: Job Arrived
+[      428.000ms] 218: Job interrupted because of preemptive scheduling
+[      428.000ms]  15: Job being scheduled now
+[      428.614ms] 436: Job Arrived
+[      428.648ms] 437: Job Arrived
+[      428.709ms] 438: Job Arrived
+[      428.911ms] 439: Job Arrived
+[      429.000ms]  15: Job completed
+[      429.000ms]  26: Job being scheduled now
+[      429.179ms] 440: Job Arrived
+[      430.000ms]  26: Job interrupted because of preemptive scheduling
+[      430.000ms] 113: Job being scheduled now
+[      430.431ms] 441: Job Arrived
+[      430.644ms] 442: Job Arrived
+[      431.000ms] 113: Job interrupted because of preemptive scheduling
+[      431.000ms] 219: Job being scheduled now
+[      432.000ms] 219: Job interrupted because of preemptive scheduling
+[      432.000ms]  58: Job being scheduled now
+[      433.000ms]  58: Job interrupted because of preemptive scheduling
+[      433.000ms]  27: Job being scheduled now
+[      434.000ms]  27: Job interrupted because of preemptive scheduling
+[      434.000ms] 220: Job being scheduled now
+[      434.240ms] 443: Job Arrived
+[      435.000ms] 220: Job interrupted because of preemptive scheduling
+[      435.000ms]  59: Job being scheduled now
+[      436.000ms]  59: Job interrupted because of preemptive scheduling
+[      436.000ms] 221: Job being scheduled now
+[      436.251ms] 444: Job Arrived
+[      436.495ms] 445: Job Arrived
+[      437.000ms] 221: Job interrupted because of preemptive scheduling
+[      437.000ms] 222: Job being scheduled now
+[      437.548ms] 446: Job Arrived
+[      437.811ms] 447: Job Arrived
+[      438.000ms] 222: Job interrupted because of preemptive scheduling
+[      438.000ms] 114: Job being scheduled now
+[      438.725ms] 448: Job Arrived
+[      438.871ms] 449: Job Arrived
+[      439.000ms] 114: Job interrupted because of preemptive scheduling
+[      439.000ms] 223: Job being scheduled now
+[      440.000ms] 223: Job interrupted because of preemptive scheduling
+[      440.000ms] 224: Job being scheduled now
+[      440.785ms] 450: Job Arrived
+[      440.946ms] 451: Job Arrived
+[      441.000ms] 224: Job interrupted because of preemptive scheduling
+[      441.000ms] 115: Job being scheduled now
+[      441.719ms] 452: Job Arrived
+[      442.000ms] 115: Job interrupted because of preemptive scheduling
+[      442.000ms] 116: Job being scheduled now
+[      443.000ms] 116: Job interrupted because of preemptive scheduling
+[      443.000ms] 225: Job being scheduled now
+[      444.000ms] 225: Job interrupted because of preemptive scheduling
+[      444.000ms]  60: Job being scheduled now
+[      445.000ms]  60: Job interrupted because of preemptive scheduling
+[      445.000ms] 226: Job being scheduled now
+[      446.000ms] 226: Job interrupted because of preemptive scheduling
+[      446.000ms] 117: Job being scheduled now
+[      447.000ms] 117: Job interrupted because of preemptive scheduling
+[      447.000ms] 227: Job being scheduled now
+[      448.000ms] 227: Job interrupted because of preemptive scheduling
+[      448.000ms] 228: Job being scheduled now
+[      448.134ms] 453: Job Arrived
+[      449.000ms] 228: Job interrupted because of preemptive scheduling
+[      449.000ms] 118: Job being scheduled now
+[      449.473ms] 454: Job Arrived
+[      450.000ms] 118: Job interrupted because of preemptive scheduling
+[      450.000ms]  16: Job being scheduled now
+[      451.000ms]  16: Job completed
+[      451.000ms] 229: Job being scheduled now
+[      452.000ms] 229: Job interrupted because of preemptive scheduling
+[      452.000ms]  61: Job being scheduled now
+[      452.180ms] 455: Job Arrived
+[      452.430ms] 456: Job Arrived
+[      452.953ms] 457: Job Arrived
+[      453.000ms]  61: Job interrupted because of preemptive scheduling
+[      453.000ms] 230: Job being scheduled now
+[      453.090ms] 458: Job Arrived
+[      453.720ms] 459: Job Arrived
+[      454.000ms] 230: Job interrupted because of preemptive scheduling
+[      454.000ms] 119: Job being scheduled now
+[      454.177ms] 460: Job Arrived
+[      454.529ms] 461: Job Arrived
+[      455.000ms] 119: Job interrupted because of preemptive scheduling
+[      455.000ms]  28: Job being scheduled now
+[      455.353ms] 462: Job Arrived
+[      456.000ms]  28: Job interrupted because of preemptive scheduling
+[      456.000ms] 120: Job being scheduled now
+[      456.652ms] 463: Job Arrived
+[      457.000ms] 120: Job interrupted because of preemptive scheduling
+[      457.000ms] 231: Job being scheduled now
+[      457.005ms] 464: Job Arrived
+[      457.096ms] 465: Job Arrived
+[      458.000ms] 231: Job interrupted because of preemptive scheduling
+[      458.000ms]  62: Job being scheduled now
+[      458.347ms] 466: Job Arrived
+[      458.429ms] 467: Job Arrived
+[      459.000ms]  62: Job interrupted because of preemptive scheduling
+[      459.000ms] 232: Job being scheduled now
+[      459.651ms] 468: Job Arrived
+[      460.000ms] 232: Job interrupted because of preemptive scheduling
+[      460.000ms] 121: Job being scheduled now
+[      460.063ms] 469: Job Arrived
+[      461.000ms] 121: Job interrupted because of preemptive scheduling
+[      461.000ms] 233: Job being scheduled now
+[      461.308ms] 470: Job Arrived
+[      461.342ms] 471: Job Arrived
+[      461.343ms] 472: Job Arrived
+[      461.592ms] 473: Job Arrived
+[      462.000ms] 233: Job interrupted because of preemptive scheduling
+[      462.000ms] 234: Job being scheduled now
+[      463.000ms] 234: Job interrupted because of preemptive scheduling
+[      463.000ms]  63: Job being scheduled now
+[      464.000ms]  63: Job interrupted because of preemptive scheduling
+[      464.000ms] 122: Job being scheduled now
+[      464.778ms] 474: Job Arrived
+[      465.000ms] 122: Job interrupted because of preemptive scheduling
+[      465.000ms] 235: Job being scheduled now
+[      465.457ms] 475: Job Arrived
+[      465.556ms] 476: Job Arrived
+[      466.000ms] 235: Job interrupted because of preemptive scheduling
+[      466.000ms] 236: Job being scheduled now
+[      466.848ms] 477: Job Arrived
+[      467.000ms] 236: Job interrupted because of preemptive scheduling
+[      467.000ms]  29: Job being scheduled now
+[      468.000ms]  29: Job interrupted because of preemptive scheduling
+[      468.000ms] 237: Job being scheduled now
+[      468.585ms] 478: Job Arrived
+[      469.000ms] 237: Job interrupted because of preemptive scheduling
+[      469.000ms] 238: Job being scheduled now
+[      469.265ms] 479: Job Arrived
+[      469.642ms] 480: Job Arrived
+[      470.000ms] 238: Job interrupted because of preemptive scheduling
+[      470.000ms] 123: Job being scheduled now
+[      470.976ms] 481: Job Arrived
+[      471.000ms] 123: Job interrupted because of preemptive scheduling
+[      471.000ms] 124: Job being scheduled now
+[      471.069ms] 482: Job Arrived
+[      472.000ms] 124: Job interrupted because of preemptive scheduling
+[      472.000ms] 125: Job being scheduled now
+[      472.059ms] 483: Job Arrived
+[      472.471ms] 484: Job Arrived
+[      472.706ms] 485: Job Arrived
+[      473.000ms] 125: Job interrupted because of preemptive scheduling
+[      473.000ms] 239: Job being scheduled now
+[      473.468ms] 486: Job Arrived
+[      473.913ms] 487: Job Arrived
+[      474.000ms] 239: Job interrupted because of preemptive scheduling
+[      474.000ms] 240: Job being scheduled now
+[      475.000ms] 240: Job interrupted because of preemptive scheduling
+[      475.000ms]  64: Job being scheduled now
+[      475.070ms] 488: Job Arrived
+[      476.000ms]  64: Job interrupted because of preemptive scheduling
+[      476.000ms] 126: Job being scheduled now
+[      476.555ms] 489: Job Arrived
+[      477.000ms] 126: Job interrupted because of preemptive scheduling
+[      477.000ms] 241: Job being scheduled now
+[      477.098ms] 490: Job Arrived
+[      477.204ms] 491: Job Arrived
+[      478.000ms] 241: Job interrupted because of preemptive scheduling
+[      478.000ms] 242: Job being scheduled now
+[      479.000ms] 242: Job interrupted because of preemptive scheduling
+[      479.000ms] 243: Job being scheduled now
+[      480.000ms] 243: Job interrupted because of preemptive scheduling
+[      480.000ms] 127: Job being scheduled now
+[      480.487ms] 492: Job Arrived
+[      481.000ms] 127: Job interrupted because of preemptive scheduling
+[      481.000ms]  17: Job being scheduled now
+[      481.228ms] 493: Job Arrived
+[      482.000ms]  17: Job completed
+[      482.000ms] 244: Job being scheduled now
+[      483.000ms] 244: Job interrupted because of preemptive scheduling
+[      483.000ms] 245: Job being scheduled now
+[      484.000ms] 245: Job interrupted because of preemptive scheduling
+[      484.000ms] 128: Job being scheduled now
+[      485.000ms] 128: Job interrupted because of preemptive scheduling
+[      485.000ms] 246: Job being scheduled now
+[      486.000ms] 246: Job interrupted because of preemptive scheduling
+[      486.000ms] 247: Job being scheduled now
+[      486.344ms] 494: Job Arrived
+[      487.000ms] 247: Job interrupted because of preemptive scheduling
+[      487.000ms]  30: Job being scheduled now
+[      487.285ms] 495: Job Arrived
+[      488.000ms]  30: Job interrupted because of preemptive scheduling
+[      488.000ms] 129: Job being scheduled now
+[      488.601ms] 496: Job Arrived
+[      489.000ms] 129: Job interrupted because of preemptive scheduling
+[      489.000ms] 248: Job being scheduled now
+[      490.000ms] 248: Job interrupted because of preemptive scheduling
+[      490.000ms] 249: Job being scheduled now
+[      490.057ms] 497: Job Arrived
+[      490.630ms] 498: Job Arrived
+[      491.000ms] 249: Job interrupted because of preemptive scheduling
+[      491.000ms]  65: Job being scheduled now
+[      491.079ms] 499: Job Arrived
+[      491.334ms] 500: Job Arrived
+[      491.804ms] 501: Job Arrived
+[      492.000ms]  65: Job interrupted because of preemptive scheduling
+[      492.000ms] 130: Job being scheduled now
+[      493.000ms] 130: Job interrupted because of preemptive scheduling
+[      493.000ms]  66: Job being scheduled now
+[      493.049ms] 502: Job Arrived
+[      493.359ms] 503: Job Arrived
+[      493.706ms] 504: Job Arrived
+[      494.000ms]  66: Job interrupted because of preemptive scheduling
+[      494.000ms] 250: Job being scheduled now
+[      494.044ms] 505: Job Arrived
+[      494.678ms] 506: Job Arrived
+[      495.000ms] 250: Job interrupted because of preemptive scheduling
+[      495.000ms] 251: Job being scheduled now
+[      495.219ms] 507: Job Arrived
+[      495.410ms] 508: Job Arrived
+[      496.000ms] 251: Job interrupted because of preemptive scheduling
+[      496.000ms]  18: Job being scheduled now
+[      496.973ms] 509: Job Arrived
+[      497.000ms]  18: Job completed
+[      497.000ms] 252: Job being scheduled now
+[      498.000ms] 252: Job interrupted because of preemptive scheduling
+[      498.000ms]  19: Job being scheduled now
+[      499.000ms]  19: Job completed
+[      499.000ms] 253: Job being scheduled now
+[      499.585ms] 510: Job Arrived
+[      499.787ms] 511: Job Arrived
+[      500.000ms] 253: Job interrupted because of preemptive scheduling
+[      500.000ms]  67: Job being scheduled now
+[      500.558ms] 512: Job Arrived
+[      500.599ms] 513: Job Arrived
+[      501.000ms]  67: Job interrupted because of preemptive scheduling
+[      501.000ms] 254: Job being scheduled now
+[      502.000ms] 254: Job interrupted because of preemptive scheduling
+[      502.000ms] 131: Job being scheduled now
+[      502.825ms] 514: Job Arrived
+[      503.000ms] 131: Job interrupted because of preemptive scheduling
+[      503.000ms]  68: Job being scheduled now
+[      503.125ms] 515: Job Arrived
+[      503.425ms] 516: Job Arrived
+[      503.579ms] 517: Job Arrived
+[      503.768ms] 518: Job Arrived
+[      504.000ms]  68: Job interrupted because of preemptive scheduling
+[      504.000ms] 255: Job being scheduled now
+[      505.000ms] 255: Job interrupted because of preemptive scheduling
+[      505.000ms] 256: Job being scheduled now
+[      505.793ms] 519: Job Arrived
+[      506.000ms] 256: Job interrupted because of preemptive scheduling
+[      506.000ms]  69: Job being scheduled now
+[      507.000ms]  69: Job interrupted because of preemptive scheduling
+[      507.000ms] 257: Job being scheduled now
+[      507.527ms] 520: Job Arrived
+[      507.801ms] 521: Job Arrived
+[      507.967ms] 522: Job Arrived
+[      508.000ms] 257: Job interrupted because of preemptive scheduling
+[      508.000ms] 258: Job being scheduled now
+[      508.898ms] 523: Job Arrived
+[      509.000ms] 258: Job interrupted because of preemptive scheduling
+[      509.000ms] 259: Job being scheduled now
+[      509.814ms] 524: Job Arrived
+[      510.000ms] 259: Job interrupted because of preemptive scheduling
+[      510.000ms] 132: Job being scheduled now
+[      511.000ms] 132: Job interrupted because of preemptive scheduling
+[      511.000ms] 260: Job being scheduled now
+[      512.000ms] 260: Job interrupted because of preemptive scheduling
+[      512.000ms]  70: Job being scheduled now
+[      512.934ms] 525: Job Arrived
+[      513.000ms]  70: Job interrupted because of preemptive scheduling
+[      513.000ms] 133: Job being scheduled now
+[      514.000ms] 133: Job interrupted because of preemptive scheduling
+[      514.000ms] 261: Job being scheduled now
+[      515.000ms] 261: Job interrupted because of preemptive scheduling
+[      515.000ms] 262: Job being scheduled now
+[      515.293ms] 526: Job Arrived
+[      515.401ms] 527: Job Arrived
+[      515.889ms] 528: Job Arrived
+[      516.000ms] 262: Job interrupted because of preemptive scheduling
+[      516.000ms]  31: Job being scheduled now
+[      517.000ms]  31: Job interrupted because of preemptive scheduling
+[      517.000ms] 263: Job being scheduled now
+[      517.684ms] 529: Job Arrived
+[      517.829ms] 530: Job Arrived
+[      518.000ms] 263: Job interrupted because of preemptive scheduling
+[      518.000ms]  71: Job being scheduled now
+[      518.344ms] 531: Job Arrived
+[      519.000ms]  71: Job interrupted because of preemptive scheduling
+[      519.000ms]  72: Job being scheduled now
+[      519.302ms] 532: Job Arrived
+[      520.000ms]  72: Job interrupted because of preemptive scheduling
+[      520.000ms] 264: Job being scheduled now
+[      520.229ms] 533: Job Arrived
+[      520.758ms] 534: Job Arrived
+[      521.000ms] 264: Job interrupted because of preemptive scheduling
+[      521.000ms] 134: Job being scheduled now
+[      522.000ms] 134: Job interrupted because of preemptive scheduling
+[      522.000ms] 265: Job being scheduled now
+[      523.000ms] 265: Job interrupted because of preemptive scheduling
+[      523.000ms] 135: Job being scheduled now
+[      523.803ms] 535: Job Arrived
+[      524.000ms] 135: Job interrupted because of preemptive scheduling
+[      524.000ms] 266: Job being scheduled now
+[      524.883ms] 536: Job Arrived
+[      525.000ms] 266: Job interrupted because of preemptive scheduling
+[      525.000ms] 267: Job being scheduled now
+[      525.186ms] 537: Job Arrived
+[      525.908ms] 538: Job Arrived
+[      526.000ms] 267: Job interrupted because of preemptive scheduling
+[      526.000ms]  32: Job being scheduled now
+[      527.000ms]  32: Job interrupted because of preemptive scheduling
+[      527.000ms] 268: Job being scheduled now
+[      527.876ms] 539: Job Arrived
+[      528.000ms] 268: Job interrupted because of preemptive scheduling
+[      528.000ms]  73: Job being scheduled now
+[      528.063ms] 540: Job Arrived
+[      528.249ms] 541: Job Arrived
+[      529.000ms]  73: Job interrupted because of preemptive scheduling
+[      529.000ms]  33: Job being scheduled now
+[      529.392ms] 542: Job Arrived
+[      529.859ms] 543: Job Arrived
+[      530.000ms]  33: Job interrupted because of preemptive scheduling
+[      530.000ms] 269: Job being scheduled now
+[      530.107ms] 544: Job Arrived
+[      530.320ms] 545: Job Arrived
+[      530.845ms] 546: Job Arrived
+[      531.000ms] 269: Job interrupted because of preemptive scheduling
+[      531.000ms]  74: Job being scheduled now
+[      531.407ms] 547: Job Arrived
+[      532.000ms]  74: Job interrupted because of preemptive scheduling
+[      532.000ms] 270: Job being scheduled now
+[      532.522ms] 548: Job Arrived
+[      533.000ms] 270: Job interrupted because of preemptive scheduling
+[      533.000ms] 271: Job being scheduled now
+[      533.101ms] 549: Job Arrived
+[      533.845ms] 550: Job Arrived
+[      534.000ms] 271: Job interrupted because of preemptive scheduling
+[      534.000ms] 272: Job being scheduled now
+[      534.209ms] 551: Job Arrived
+[      534.500ms] 552: Job Arrived
+[      534.875ms] 553: Job Arrived
+[      535.000ms] 272: Job interrupted because of preemptive scheduling
+[      535.000ms]  75: Job being scheduled now
+[      535.507ms] 554: Job Arrived
+[      536.000ms]  75: Job interrupted because of preemptive scheduling
+[      536.000ms] 273: Job being scheduled now
+[      537.000ms] 273: Job interrupted because of preemptive scheduling
+[      537.000ms] 136: Job being scheduled now
+[      537.223ms] 555: Job Arrived
+[      537.298ms] 556: Job Arrived
+[      537.327ms] 557: Job Arrived
+[      537.597ms] 558: Job Arrived
+[      537.759ms] 559: Job Arrived
+[      537.854ms] 560: Job Arrived
+[      538.000ms] 136: Job interrupted because of preemptive scheduling
+[      538.000ms] 274: Job being scheduled now
+[      538.694ms] 561: Job Arrived
+[      539.000ms] 274: Job interrupted because of preemptive scheduling
+[      539.000ms]  76: Job being scheduled now
+[      539.782ms] 562: Job Arrived
+[      540.000ms]  76: Job interrupted because of preemptive scheduling
+[      540.000ms] 275: Job being scheduled now
+[      540.095ms] 563: Job Arrived
+[      541.000ms] 275: Job interrupted because of preemptive scheduling
+[      541.000ms] 137: Job being scheduled now
+[      541.739ms] 564: Job Arrived
+[      541.760ms] 565: Job Arrived
+[      542.000ms] 137: Job interrupted because of preemptive scheduling
+[      542.000ms] 138: Job being scheduled now
+[      543.000ms] 138: Job interrupted because of preemptive scheduling
+[      543.000ms] 139: Job being scheduled now
+[      543.417ms] 566: Job Arrived
+[      544.000ms] 139: Job interrupted because of preemptive scheduling
+[      544.000ms] 276: Job being scheduled now
+[      545.000ms] 276: Job interrupted because of preemptive scheduling
+[      545.000ms] 140: Job being scheduled now
+[      545.313ms] 567: Job Arrived
+[      546.000ms] 140: Job interrupted because of preemptive scheduling
+[      546.000ms] 141: Job being scheduled now
+[      547.000ms] 141: Job interrupted because of preemptive scheduling
+[      547.000ms] 277: Job being scheduled now
+[      548.000ms] 277: Job interrupted because of preemptive scheduling
+[      548.000ms]  77: Job being scheduled now
+[      549.000ms]  77: Job interrupted because of preemptive scheduling
+[      549.000ms] 278: Job being scheduled now
+[      550.000ms] 278: Job interrupted because of preemptive scheduling
+[      550.000ms]  34: Job being scheduled now
+[      551.000ms]  34: Job interrupted because of preemptive scheduling
+[      551.000ms] 142: Job being scheduled now
+[      552.000ms] 142: Job interrupted because of preemptive scheduling
+[      552.000ms] 279: Job being scheduled now
+[      553.000ms] 279: Job interrupted because of preemptive scheduling
+[      553.000ms] 143: Job being scheduled now
+[      554.000ms] 143: Job interrupted because of preemptive scheduling
+[      554.000ms]  20: Job being scheduled now
+[      555.000ms]  20: Job completed
+[      555.000ms] 280: Job being scheduled now
+[      555.164ms] 568: Job Arrived
+[      556.000ms] 280: Job interrupted because of preemptive scheduling
+[      556.000ms] 144: Job being scheduled now
+[      557.000ms] 144: Job interrupted because of preemptive scheduling
+[      557.000ms] 281: Job being scheduled now
+[      558.000ms] 281: Job interrupted because of preemptive scheduling
+[      558.000ms] 282: Job being scheduled now
+[      558.389ms] 569: Job Arrived
+[      559.000ms] 282: Job interrupted because of preemptive scheduling
+[      559.000ms]  35: Job being scheduled now
+[      559.859ms] 570: Job Arrived
+[      560.000ms]  35: Job interrupted because of preemptive scheduling
+[      560.000ms] 145: Job being scheduled now
+[      561.000ms] 145: Job interrupted because of preemptive scheduling
+[      561.000ms]  78: Job being scheduled now
+[      561.415ms] 571: Job Arrived
+[      562.000ms]  78: Job interrupted because of preemptive scheduling
+[      562.000ms] 146: Job being scheduled now
+[      562.813ms] 572: Job Arrived
+[      563.000ms] 146: Job interrupted because of preemptive scheduling
+[      563.000ms] 283: Job being scheduled now
+[      563.439ms] 573: Job Arrived
+[      563.980ms] 574: Job Arrived
+[      564.000ms] 283: Job interrupted because of preemptive scheduling
+[      564.000ms] 284: Job being scheduled now
+[      565.000ms] 284: Job interrupted because of preemptive scheduling
+[      565.000ms] 285: Job being scheduled now
+[      565.570ms] 575: Job Arrived
+[      565.973ms] 576: Job Arrived
+[      566.000ms] 285: Job interrupted because of preemptive scheduling
+[      566.000ms]  79: Job being scheduled now
+[      566.378ms] 577: Job Arrived
+[      566.451ms] 578: Job Arrived
+[      567.000ms]  79: Job interrupted because of preemptive scheduling
+[      567.000ms] 286: Job being scheduled now
+[      568.000ms] 286: Job interrupted because of preemptive scheduling
+[      568.000ms]  80: Job being scheduled now
+[      568.293ms] 579: Job Arrived
+[      569.000ms]  80: Job interrupted because of preemptive scheduling
+[      569.000ms]  81: Job being scheduled now
+[      570.000ms]  81: Job interrupted because of preemptive scheduling
+[      570.000ms] 147: Job being scheduled now
+[      570.805ms] 580: Job Arrived
+[      570.868ms] 581: Job Arrived
+[      570.951ms] 582: Job Arrived
+[      571.000ms] 147: Job interrupted because of preemptive scheduling
+[      571.000ms] 287: Job being scheduled now
+[      572.000ms] 287: Job interrupted because of preemptive scheduling
+[      572.000ms]  36: Job being scheduled now
+[      572.622ms] 583: Job Arrived
+[      572.866ms] 584: Job Arrived
+[      573.000ms]  36: Job interrupted because of preemptive scheduling
+[      573.000ms] 288: Job being scheduled now
+[      573.073ms] 585: Job Arrived
+[      574.000ms] 288: Job interrupted because of preemptive scheduling
+[      574.000ms] 289: Job being scheduled now
+[      575.000ms] 289: Job interrupted because of preemptive scheduling
+[      575.000ms] 148: Job being scheduled now
+[      576.000ms] 148: Job interrupted because of preemptive scheduling
+[      576.000ms] 290: Job being scheduled now
+[      576.386ms] 586: Job Arrived
+[      577.000ms] 290: Job interrupted because of preemptive scheduling
+[      577.000ms] 149: Job being scheduled now
+[      577.023ms] 587: Job Arrived
+[      578.000ms] 149: Job interrupted because of preemptive scheduling
+[      578.000ms] 150: Job being scheduled now
+[      578.871ms] 588: Job Arrived
+[      579.000ms] 150: Job interrupted because of preemptive scheduling
+[      579.000ms] 291: Job being scheduled now
+[      579.051ms] 589: Job Arrived
+[      580.000ms] 291: Job interrupted because of preemptive scheduling
+[      580.000ms]  82: Job being scheduled now
+[      581.000ms]  82: Job interrupted because of preemptive scheduling
+[      581.000ms] 292: Job being scheduled now
+[      581.758ms] 590: Job Arrived
+[      582.000ms] 292: Job interrupted because of preemptive scheduling
+[      582.000ms] 293: Job being scheduled now
+[      582.070ms] 591: Job Arrived
+[      582.517ms] 592: Job Arrived
+[      582.522ms] 593: Job Arrived
+[      583.000ms] 293: Job interrupted because of preemptive scheduling
+[      583.000ms] 294: Job being scheduled now
+[      584.000ms] 294: Job interrupted because of preemptive scheduling
+[      584.000ms] 295: Job being scheduled now
+[      584.732ms] 594: Job Arrived
+[      585.000ms] 295: Job interrupted because of preemptive scheduling
+[      585.000ms] 151: Job being scheduled now
+[      585.459ms] 595: Job Arrived
+[      586.000ms] 151: Job interrupted because of preemptive scheduling
+[      586.000ms]  83: Job being scheduled now
+[      586.748ms] 596: Job Arrived
+[      586.768ms] 597: Job Arrived
+[      587.000ms]  83: Job interrupted because of preemptive scheduling
+[      587.000ms] 296: Job being scheduled now
+[      587.439ms] 598: Job Arrived
+[      587.690ms] 599: Job Arrived
+[      588.000ms] 296: Job interrupted because of preemptive scheduling
+[      588.000ms] 297: Job being scheduled now
+[      588.680ms] 600: Job Arrived
+[      589.000ms] 297: Job interrupted because of preemptive scheduling
+[      589.000ms] 298: Job being scheduled now
+[      590.000ms] 298: Job interrupted because of preemptive scheduling
+[      590.000ms] 152: Job being scheduled now
+[      591.000ms] 152: Job interrupted because of preemptive scheduling
+[      591.000ms] 299: Job being scheduled now
+[      591.244ms] 601: Job Arrived
+[      591.390ms] 602: Job Arrived
+[      592.000ms] 299: Job interrupted because of preemptive scheduling
+[      592.000ms] 153: Job being scheduled now
+[      593.000ms] 153: Job interrupted because of preemptive scheduling
+[      593.000ms] 300: Job being scheduled now
+[      594.000ms] 300: Job interrupted because of preemptive scheduling
+[      594.000ms]  37: Job being scheduled now
+[      594.629ms] 603: Job Arrived
+[      595.000ms]  37: Job interrupted because of preemptive scheduling
+[      595.000ms]  84: Job being scheduled now
+[      596.000ms]  84: Job interrupted because of preemptive scheduling
+[      596.000ms] 301: Job being scheduled now
+[      596.879ms] 604: Job Arrived
+[      597.000ms] 301: Job interrupted because of preemptive scheduling
+[      597.000ms] 302: Job being scheduled now
+[      597.577ms] 605: Job Arrived
+[      597.808ms] 606: Job Arrived
+[      598.000ms] 302: Job interrupted because of preemptive scheduling
+[      598.000ms]  85: Job being scheduled now
+[      599.000ms]  85: Job interrupted because of preemptive scheduling
+[      599.000ms] 303: Job being scheduled now
+[      600.000ms] 303: Job interrupted because of preemptive scheduling
+[      600.000ms] 154: Job being scheduled now
+[      601.000ms] 154: Job interrupted because of preemptive scheduling
+[      601.000ms] 304: Job being scheduled now
+[      601.385ms] 607: Job Arrived
+[      602.000ms] 304: Job interrupted because of preemptive scheduling
+[      602.000ms] 155: Job being scheduled now
+[      602.740ms] 608: Job Arrived
+[      603.000ms] 155: Job interrupted because of preemptive scheduling
+[      603.000ms] 305: Job being scheduled now
+[      603.378ms] 609: Job Arrived
+[      604.000ms] 305: Job interrupted because of preemptive scheduling
+[      604.000ms]  38: Job being scheduled now
+[      604.314ms] 610: Job Arrived
+[      605.000ms]  38: Job interrupted because of preemptive scheduling
+[      605.000ms] 306: Job being scheduled now
+[      606.000ms] 306: Job interrupted because of preemptive scheduling
+[      606.000ms] 156: Job being scheduled now
+[      607.000ms] 156: Job interrupted because of preemptive scheduling
+[      607.000ms] 307: Job being scheduled now
+[      607.477ms] 611: Job Arrived
+[      608.000ms] 307: Job interrupted because of preemptive scheduling
+[      608.000ms] 308: Job being scheduled now
+[      609.000ms] 308: Job interrupted because of preemptive scheduling
+[      609.000ms] 157: Job being scheduled now
+[      610.000ms] 157: Job interrupted because of preemptive scheduling
+[      610.000ms] 309: Job being scheduled now
+[      611.000ms] 309: Job interrupted because of preemptive scheduling
+[      611.000ms]  39: Job being scheduled now
+[      611.117ms] 612: Job Arrived
+[      612.000ms]  39: Job interrupted because of preemptive scheduling
+[      612.000ms] 310: Job being scheduled now
+[      612.932ms] 613: Job Arrived
+[      613.000ms] 310: Job interrupted because of preemptive scheduling
+[      613.000ms] 158: Job being scheduled now
+[      613.454ms] 614: Job Arrived
+[      614.000ms] 158: Job interrupted because of preemptive scheduling
+[      614.000ms] 311: Job being scheduled now
+[      615.000ms] 311: Job interrupted because of preemptive scheduling
+[      615.000ms]  86: Job being scheduled now
+[      615.559ms] 615: Job Arrived
+[      615.826ms] 616: Job Arrived
+[      616.000ms]  86: Job interrupted because of preemptive scheduling
+[      616.000ms] 312: Job being scheduled now
+[      616.686ms] 617: Job Arrived
+[      617.000ms] 312: Job interrupted because of preemptive scheduling
+[      617.000ms] 313: Job being scheduled now
+[      618.000ms] 313: Job interrupted because of preemptive scheduling
+[      618.000ms]  40: Job being scheduled now
+[      619.000ms]  40: Job interrupted because of preemptive scheduling
+[      619.000ms] 314: Job being scheduled now
+[      620.000ms] 314: Job interrupted because of preemptive scheduling
+[      620.000ms] 315: Job being scheduled now
+[      620.985ms] 618: Job Arrived
+[      621.000ms] 315: Job interrupted because of preemptive scheduling
+[      621.000ms] 159: Job being scheduled now
+[      622.000ms] 159: Job interrupted because of preemptive scheduling
+[      622.000ms] 160: Job being scheduled now
+[      622.247ms] 619: Job Arrived
+[      622.651ms] 620: Job Arrived
+[      623.000ms] 160: Job interrupted because of preemptive scheduling
+[      623.000ms] 316: Job being scheduled now
+[      624.000ms] 316: Job interrupted because of preemptive scheduling
+[      624.000ms] 317: Job being scheduled now
+[      624.078ms] 621: Job Arrived
+[      625.000ms] 317: Job interrupted because of preemptive scheduling
+[      625.000ms] 318: Job being scheduled now
+[      625.290ms] 622: Job Arrived
+[      625.471ms] 623: Job Arrived
+[      626.000ms] 318: Job interrupted because of preemptive scheduling
+[      626.000ms]  87: Job being scheduled now
+[      627.000ms]  87: Job interrupted because of preemptive scheduling
+[      627.000ms] 161: Job being scheduled now
+[      627.175ms] 624: Job Arrived
+[      628.000ms] 161: Job interrupted because of preemptive scheduling
+[      628.000ms] 319: Job being scheduled now
+[      628.653ms] 625: Job Arrived
+[      628.701ms] 626: Job Arrived
+[      629.000ms] 319: Job interrupted because of preemptive scheduling
+[      629.000ms] 320: Job being scheduled now
+[      629.292ms] 627: Job Arrived
+[      630.000ms] 320: Job interrupted because of preemptive scheduling
+[      630.000ms] 321: Job being scheduled now
+[      630.584ms] 628: Job Arrived
+[      630.774ms] 629: Job Arrived
+[      631.000ms] 321: Job interrupted because of preemptive scheduling
+[      631.000ms]  41: Job being scheduled now
+[      632.000ms]  41: Job interrupted because of preemptive scheduling
+[      632.000ms] 162: Job being scheduled now
+[      632.273ms] 630: Job Arrived
+[      632.280ms] 631: Job Arrived
+[      633.000ms] 162: Job interrupted because of preemptive scheduling
+[      633.000ms] 322: Job being scheduled now
+[      634.000ms] 322: Job interrupted because of preemptive scheduling
+[      634.000ms] 323: Job being scheduled now
+[      634.041ms] 632: Job Arrived
+[      635.000ms] 323: Job interrupted because of preemptive scheduling
+[      635.000ms] 324: Job being scheduled now
+[      635.113ms] 633: Job Arrived
+[      635.940ms] 634: Job Arrived
+[      636.000ms] 324: Job interrupted because of preemptive scheduling
+[      636.000ms]  88: Job being scheduled now
+[      636.833ms] 635: Job Arrived
+[      637.000ms]  88: Job interrupted because of preemptive scheduling
+[      637.000ms] 325: Job being scheduled now
+[      637.335ms] 636: Job Arrived
+[      638.000ms] 325: Job interrupted because of preemptive scheduling
+[      638.000ms] 326: Job being scheduled now
+[      639.000ms] 326: Job interrupted because of preemptive scheduling
+[      639.000ms] 163: Job being scheduled now
+[      640.000ms] 163: Job interrupted because of preemptive scheduling
+[      640.000ms] 327: Job being scheduled now
+[      640.492ms] 637: Job Arrived
+[      640.685ms] 638: Job Arrived
+[      641.000ms] 327: Job interrupted because of preemptive scheduling
+[      641.000ms] 164: Job being scheduled now
+[      642.000ms] 164: Job interrupted because of preemptive scheduling
+[      642.000ms] 328: Job being scheduled now
+[      642.866ms] 639: Job Arrived
+[      643.000ms] 328: Job interrupted because of preemptive scheduling
+[      643.000ms] 329: Job being scheduled now
+[      644.000ms] 329: Job interrupted because of preemptive scheduling
+[      644.000ms] 165: Job being scheduled now
+[      644.400ms] 640: Job Arrived
+[      645.000ms] 165: Job interrupted because of preemptive scheduling
+[      645.000ms] 330: Job being scheduled now
+[      645.062ms] 641: Job Arrived
+[      645.632ms] 642: Job Arrived
+[      646.000ms] 330: Job interrupted because of preemptive scheduling
+[      646.000ms] 166: Job being scheduled now
+[      646.667ms] 643: Job Arrived
+[      647.000ms] 166: Job interrupted because of preemptive scheduling
+[      647.000ms] 331: Job being scheduled now
+[      647.566ms] 644: Job Arrived
+[      648.000ms] 331: Job interrupted because of preemptive scheduling
+[      648.000ms] 332: Job being scheduled now
+[      648.831ms] 645: Job Arrived
+[      648.851ms] 646: Job Arrived
+[      649.000ms] 332: Job interrupted because of preemptive scheduling
+[      649.000ms]  89: Job being scheduled now
+[      650.000ms]  89: Job interrupted because of preemptive scheduling
+[      650.000ms] 333: Job being scheduled now
+[      651.000ms] 333: Job interrupted because of preemptive scheduling
+[      651.000ms]  21: Job being scheduled now
+[      651.125ms] 647: Job Arrived
+[      651.239ms] 648: Job Arrived
+[      651.734ms] 649: Job Arrived
+[      652.000ms]  21: Job completed
+[      652.000ms] 334: Job being scheduled now
+[      652.416ms] 650: Job Arrived
+[      652.565ms] 651: Job Arrived
+[      653.000ms] 334: Job interrupted because of preemptive scheduling
+[      653.000ms] 335: Job being scheduled now
+[      653.136ms] 652: Job Arrived
+[      654.000ms] 335: Job interrupted because of preemptive scheduling
+[      654.000ms] 336: Job being scheduled now
+[      654.599ms] 653: Job Arrived
+[      654.858ms] 654: Job Arrived
+[      655.000ms] 336: Job interrupted because of preemptive scheduling
+[      655.000ms] 337: Job being scheduled now
+[      655.197ms] 655: Job Arrived
+[      655.432ms] 656: Job Arrived
+[      655.752ms] 657: Job Arrived
+[      655.905ms] 658: Job Arrived
+[      656.000ms] 337: Job interrupted because of preemptive scheduling
+[      656.000ms] 167: Job being scheduled now
+[      656.908ms] 659: Job Arrived
+[      657.000ms] 167: Job interrupted because of preemptive scheduling
+[      657.000ms] 168: Job being scheduled now
+[      657.390ms] 660: Job Arrived
+[      658.000ms] 168: Job interrupted because of preemptive scheduling
+[      658.000ms] 169: Job being scheduled now
+[      659.000ms] 169: Job interrupted because of preemptive scheduling
+[      659.000ms] 338: Job being scheduled now
+[      659.594ms] 661: Job Arrived
+[      660.000ms] 338: Job interrupted because of preemptive scheduling
+[      660.000ms]  90: Job being scheduled now
+[      661.000ms]  90: Job interrupted because of preemptive scheduling
+[      661.000ms] 170: Job being scheduled now
+[      661.702ms] 662: Job Arrived
+[      662.000ms] 170: Job interrupted because of preemptive scheduling
+[      662.000ms] 339: Job being scheduled now
+[      662.434ms] 663: Job Arrived
+[      662.474ms] 664: Job Arrived
+[      662.782ms] 665: Job Arrived
+[      663.000ms] 339: Job interrupted because of preemptive scheduling
+[      663.000ms] 340: Job being scheduled now
+[      663.053ms] 666: Job Arrived
+[      663.127ms] 667: Job Arrived
+[      664.000ms] 340: Job interrupted because of preemptive scheduling
+[      664.000ms] 341: Job being scheduled now
+[      664.353ms] 668: Job Arrived
+[      665.000ms] 341: Job interrupted because of preemptive scheduling
+[      665.000ms] 342: Job being scheduled now
+[      665.035ms] 669: Job Arrived
+[      665.437ms] 670: Job Arrived
+[      666.000ms] 342: Job interrupted because of preemptive scheduling
+[      666.000ms]  91: Job being scheduled now
+[      666.460ms] 671: Job Arrived
+[      667.000ms]  91: Job interrupted because of preemptive scheduling
+[      667.000ms]  42: Job being scheduled now
+[      667.156ms] 672: Job Arrived
+[      667.241ms] 673: Job Arrived
+[      668.000ms]  42: Job interrupted because of preemptive scheduling
+[      668.000ms] 343: Job being scheduled now
+[      669.000ms] 343: Job interrupted because of preemptive scheduling
+[      669.000ms] 171: Job being scheduled now
+[      670.000ms] 171: Job interrupted because of preemptive scheduling
+[      670.000ms] 344: Job being scheduled now
+[      671.000ms] 344: Job interrupted because of preemptive scheduling
+[      671.000ms] 345: Job being scheduled now
+[      671.747ms] 674: Job Arrived
+[      672.000ms] 345: Job interrupted because of preemptive scheduling
+[      672.000ms] 346: Job being scheduled now
+[      673.000ms] 346: Job interrupted because of preemptive scheduling
+[      673.000ms] 172: Job being scheduled now
+[      674.000ms] 172: Job interrupted because of preemptive scheduling
+[      674.000ms] 347: Job being scheduled now
+[      674.795ms] 675: Job Arrived
+[      675.000ms] 347: Job interrupted because of preemptive scheduling
+[      675.000ms] 173: Job being scheduled now
+[      675.598ms] 676: Job Arrived
+[      676.000ms] 173: Job interrupted because of preemptive scheduling
+[      676.000ms]  92: Job being scheduled now
+[      677.000ms]  92: Job interrupted because of preemptive scheduling
+[      677.000ms] 348: Job being scheduled now
+[      678.000ms] 348: Job interrupted because of preemptive scheduling
+[      678.000ms]  43: Job being scheduled now
+[      678.447ms] 677: Job Arrived
+[      679.000ms]  43: Job interrupted because of preemptive scheduling
+[      679.000ms]  22: Job being scheduled now
+[      680.000ms]  22: Job completed
+[      680.000ms] 349: Job being scheduled now
+[      680.583ms] 678: Job Arrived
+[      681.000ms] 349: Job interrupted because of preemptive scheduling
+[      681.000ms] 174: Job being scheduled now
+[      681.478ms] 679: Job Arrived
+[      681.479ms] 680: Job Arrived
+[      681.506ms] 681: Job Arrived
+[      681.714ms] 682: Job Arrived
+[      682.000ms] 174: Job interrupted because of preemptive scheduling
+[      682.000ms] 350: Job being scheduled now
+[      682.251ms] 683: Job Arrived
+[      683.000ms] 350: Job interrupted because of preemptive scheduling
+[      683.000ms] 351: Job being scheduled now
+[      684.000ms] 351: Job interrupted because of preemptive scheduling
+[      684.000ms] 352: Job being scheduled now
+[      684.405ms] 684: Job Arrived
+[      684.540ms] 685: Job Arrived
+[      685.000ms] 352: Job interrupted because of preemptive scheduling
+[      685.000ms]  93: Job being scheduled now
+[      685.204ms] 686: Job Arrived
+[      685.536ms] 687: Job Arrived
+[      686.000ms]  93: Job interrupted because of preemptive scheduling
+[      686.000ms] 175: Job being scheduled now
+[      687.000ms] 175: Job interrupted because of preemptive scheduling
+[      687.000ms] 353: Job being scheduled now
+[      687.708ms] 688: Job Arrived
+[      688.000ms] 353: Job interrupted because of preemptive scheduling
+[      688.000ms] 354: Job being scheduled now
+[      689.000ms] 354: Job interrupted because of preemptive scheduling
+[      689.000ms] 355: Job being scheduled now
+[      690.000ms] 355: Job interrupted because of preemptive scheduling
+[      690.000ms]  44: Job being scheduled now
+[      691.000ms]  44: Job interrupted because of preemptive scheduling
+[      691.000ms] 356: Job being scheduled now
+[      692.000ms] 356: Job interrupted because of preemptive scheduling
+[      692.000ms] 357: Job being scheduled now
+[      692.793ms] 689: Job Arrived
+[      693.000ms] 357: Job interrupted because of preemptive scheduling
+[      693.000ms]  94: Job being scheduled now
+[      694.000ms]  94: Job interrupted because of preemptive scheduling
+[      694.000ms]  95: Job being scheduled now
+[      694.153ms] 690: Job Arrived
+[      694.331ms] 691: Job Arrived
+[      695.000ms]  95: Job interrupted because of preemptive scheduling
+[      695.000ms] 358: Job being scheduled now
+[      695.437ms] 692: Job Arrived
+[      695.913ms] 693: Job Arrived
+[      696.000ms] 358: Job interrupted because of preemptive scheduling
+[      696.000ms] 176: Job being scheduled now
+[      696.039ms] 694: Job Arrived
+[      697.000ms] 176: Job interrupted because of preemptive scheduling
+[      697.000ms] 359: Job being scheduled now
+[      697.244ms] 695: Job Arrived
+[      698.000ms] 359: Job interrupted because of preemptive scheduling
+[      698.000ms]  45: Job being scheduled now
+[      698.405ms] 696: Job Arrived
+[      699.000ms]  45: Job interrupted because of preemptive scheduling
+[      699.000ms] 177: Job being scheduled now
+[      699.547ms] 697: Job Arrived
+[      699.631ms] 698: Job Arrived
+[      700.000ms] 177: Job interrupted because of preemptive scheduling
+[      700.000ms] 360: Job being scheduled now
+[      700.139ms] 699: Job Arrived
+[      700.574ms] 700: Job Arrived
+[      700.594ms] 701: Job Arrived
+[      701.000ms] 360: Job interrupted because of preemptive scheduling
+[      701.000ms] 178: Job being scheduled now
+[      701.900ms] 702: Job Arrived
+[      701.944ms] 703: Job Arrived
+[      702.000ms] 178: Job interrupted because of preemptive scheduling
+[      702.000ms]  46: Job being scheduled now
+[      703.000ms]  46: Job interrupted because of preemptive scheduling
+[      703.000ms] 361: Job being scheduled now
+[      704.000ms] 361: Job interrupted because of preemptive scheduling
+[      704.000ms]  96: Job being scheduled now
+[      705.000ms]  96: Job interrupted because of preemptive scheduling
+[      705.000ms] 362: Job being scheduled now
+[      705.234ms] 704: Job Arrived
+[      705.815ms] 705: Job Arrived
+[      706.000ms] 362: Job interrupted because of preemptive scheduling
+[      706.000ms] 179: Job being scheduled now
+[      707.000ms] 179: Job interrupted because of preemptive scheduling
+[      707.000ms] 180: Job being scheduled now
+[      707.748ms] 706: Job Arrived
+[      708.000ms] 180: Job interrupted because of preemptive scheduling
+[      708.000ms] 363: Job being scheduled now
+[      708.749ms] 707: Job Arrived
+[      708.921ms] 708: Job Arrived
+[      709.000ms] 363: Job interrupted because of preemptive scheduling
+[      709.000ms] 364: Job being scheduled now
+[      709.812ms] 709: Job Arrived
+[      710.000ms] 364: Job interrupted because of preemptive scheduling
+[      710.000ms] 181: Job being scheduled now
+[      710.560ms] 710: Job Arrived
+[      711.000ms] 181: Job interrupted because of preemptive scheduling
+[      711.000ms]  23: Job being scheduled now
+[      711.700ms] 711: Job Arrived
+[      712.000ms]  23: Job completed
+[      712.000ms] 182: Job being scheduled now
+[      712.001ms] 712: Job Arrived
+[      712.871ms] 713: Job Arrived
+[      713.000ms] 182: Job interrupted because of preemptive scheduling
+[      713.000ms] 365: Job being scheduled now
+[      713.694ms] 714: Job Arrived
+[      714.000ms] 365: Job interrupted because of preemptive scheduling
+[      714.000ms] 366: Job being scheduled now
+[      715.000ms] 366: Job interrupted because of preemptive scheduling
+[      715.000ms] 183: Job being scheduled now
+[      715.355ms] 715: Job Arrived
+[      716.000ms] 183: Job interrupted because of preemptive scheduling
+[      716.000ms]  97: Job being scheduled now
+[      716.817ms] 716: Job Arrived
+[      717.000ms]  97: Job interrupted because of preemptive scheduling
+[      717.000ms]  98: Job being scheduled now
+[      717.065ms] 717: Job Arrived
+[      717.644ms] 718: Job Arrived
+[      718.000ms]  98: Job interrupted because of preemptive scheduling
+[      718.000ms] 367: Job being scheduled now
+[      718.166ms] 719: Job Arrived
+[      718.188ms] 720: Job Arrived
+[      718.879ms] 721: Job Arrived
+[      718.986ms] 722: Job Arrived
+[      719.000ms] 367: Job interrupted because of preemptive scheduling
+[      719.000ms] 368: Job being scheduled now
+[      719.068ms] 723: Job Arrived
+[      719.603ms] 724: Job Arrived
+[      719.941ms] 725: Job Arrived
+[      720.000ms] 368: Job interrupted because of preemptive scheduling
+[      720.000ms] 184: Job being scheduled now
+[      721.000ms] 184: Job interrupted because of preemptive scheduling
+[      721.000ms] 369: Job being scheduled now
+[      722.000ms] 369: Job interrupted because of preemptive scheduling
+[      722.000ms] 370: Job being scheduled now
+[      722.082ms] 726: Job Arrived
+[      722.650ms] 727: Job Arrived
+[      723.000ms] 370: Job interrupted because of preemptive scheduling
+[      723.000ms] 371: Job being scheduled now
+[      724.000ms] 371: Job interrupted because of preemptive scheduling
+[      724.000ms] 185: Job being scheduled now
+[      724.371ms] 728: Job Arrived
+[      725.000ms] 185: Job interrupted because of preemptive scheduling
+[      725.000ms]  47: Job being scheduled now
+[      725.378ms] 729: Job Arrived
+[      725.393ms] 730: Job Arrived
+[      725.576ms] 731: Job Arrived
+[      725.828ms] 732: Job Arrived
+[      725.913ms] 733: Job Arrived
+[      726.000ms]  47: Job interrupted because of preemptive scheduling
+[      726.000ms] 186: Job being scheduled now
+[      727.000ms] 186: Job interrupted because of preemptive scheduling
+[      727.000ms] 372: Job being scheduled now
+[      727.152ms] 734: Job Arrived
+[      728.000ms] 372: Job interrupted because of preemptive scheduling
+[      728.000ms] 373: Job being scheduled now
+[      728.867ms] 735: Job Arrived
+[      729.000ms] 373: Job interrupted because of preemptive scheduling
+[      729.000ms] 374: Job being scheduled now
+[      729.186ms] 736: Job Arrived
+[      730.000ms] 374: Job interrupted because of preemptive scheduling
+[      730.000ms] 187: Job being scheduled now
+[      730.599ms] 737: Job Arrived
+[      730.831ms] 738: Job Arrived
+[      731.000ms] 187: Job interrupted because of preemptive scheduling
+[      731.000ms] 375: Job being scheduled now
+[      732.000ms] 375: Job interrupted because of preemptive scheduling
+[      732.000ms] 376: Job being scheduled now
+[      733.000ms] 376: Job interrupted because of preemptive scheduling
+[      733.000ms] 377: Job being scheduled now
+[      733.212ms] 739: Job Arrived
+[      734.000ms] 377: Job interrupted because of preemptive scheduling
+[      734.000ms] 188: Job being scheduled now
+[      734.444ms] 740: Job Arrived
+[      734.558ms] 741: Job Arrived
+[      734.726ms] 742: Job Arrived
+[      735.000ms] 188: Job interrupted because of preemptive scheduling
+[      735.000ms] 378: Job being scheduled now
+[      736.000ms] 378: Job interrupted because of preemptive scheduling
+[      736.000ms] 379: Job being scheduled now
+[      736.891ms] 743: Job Arrived
+[      737.000ms] 379: Job interrupted because of preemptive scheduling
+[      737.000ms] 380: Job being scheduled now
+[      737.416ms] 744: Job Arrived
+[      737.497ms] 745: Job Arrived
+[      737.544ms] 746: Job Arrived
+[      738.000ms] 380: Job interrupted because of preemptive scheduling
+[      738.000ms]  99: Job being scheduled now
+[      738.354ms] 747: Job Arrived
+[      739.000ms]  99: Job interrupted because of preemptive scheduling
+[      739.000ms] 381: Job being scheduled now
+[      739.630ms] 748: Job Arrived
+[      739.982ms] 749: Job Arrived
+[      740.000ms] 381: Job interrupted because of preemptive scheduling
+[      740.000ms] 189: Job being scheduled now
+[      740.631ms] 750: Job Arrived
+[      741.000ms] 189: Job interrupted because of preemptive scheduling
+[      741.000ms] 382: Job being scheduled now
+[      741.200ms] 751: Job Arrived
+[      741.589ms] 752: Job Arrived
+[      742.000ms] 382: Job interrupted because of preemptive scheduling
+[      742.000ms] 190: Job being scheduled now
+[      742.197ms] 753: Job Arrived
+[      742.248ms] 754: Job Arrived
+[      742.329ms] 755: Job Arrived
+[      742.332ms] 756: Job Arrived
+[      742.557ms] 757: Job Arrived
+[      742.788ms] 758: Job Arrived
+[      743.000ms] 190: Job interrupted because of preemptive scheduling
+[      743.000ms] 383: Job being scheduled now
+[      744.000ms] 383: Job interrupted because of preemptive scheduling
+[      744.000ms] 191: Job being scheduled now
+[      744.395ms] 759: Job Arrived
+[      744.759ms] 760: Job Arrived
+[      745.000ms] 191: Job interrupted because of preemptive scheduling
+[      745.000ms] 384: Job being scheduled now
+[      746.000ms] 384: Job interrupted because of preemptive scheduling
+[      746.000ms] 100: Job being scheduled now
+[      746.346ms] 761: Job Arrived
+[      747.000ms] 100: Job interrupted because of preemptive scheduling
+[      747.000ms] 192: Job being scheduled now
+[      747.870ms] 762: Job Arrived
+[      748.000ms] 192: Job interrupted because of preemptive scheduling
+[      748.000ms] 385: Job being scheduled now
+[      749.000ms] 385: Job interrupted because of preemptive scheduling
+[      749.000ms] 386: Job being scheduled now
+[      750.000ms] 386: Job interrupted because of preemptive scheduling
+[      750.000ms] 101: Job being scheduled now
+[      750.128ms] 763: Job Arrived
+[      751.000ms] 101: Job interrupted because of preemptive scheduling
+[      751.000ms] 387: Job being scheduled now
+[      751.274ms] 764: Job Arrived
+[      752.000ms] 387: Job interrupted because of preemptive scheduling
+[      752.000ms] 193: Job being scheduled now
+[      753.000ms] 193: Job interrupted because of preemptive scheduling
+[      753.000ms] 388: Job being scheduled now
+[      753.413ms] 765: Job Arrived
+[      754.000ms] 388: Job interrupted because of preemptive scheduling
+[      754.000ms]  48: Job being scheduled now
+[      754.095ms] 766: Job Arrived
+[      754.367ms] 767: Job Arrived
+[      754.736ms] 768: Job Arrived
+[      755.000ms]  48: Job interrupted because of preemptive scheduling
+[      755.000ms] 389: Job being scheduled now
+[      756.000ms] 389: Job interrupted because of preemptive scheduling
+[      756.000ms] 390: Job being scheduled now
+[      757.000ms] 390: Job interrupted because of preemptive scheduling
+[      757.000ms] 194: Job being scheduled now
+[      758.000ms] 194: Job interrupted because of preemptive scheduling
+[      758.000ms] 391: Job being scheduled now
+[      759.000ms] 391: Job interrupted because of preemptive scheduling
+[      759.000ms] 392: Job being scheduled now
+[      760.000ms] 392: Job interrupted because of preemptive scheduling
+[      760.000ms] 195: Job being scheduled now
+[      760.298ms] 769: Job Arrived
+[      760.618ms] 770: Job Arrived
+[      760.873ms] 771: Job Arrived
+[      761.000ms] 195: Job interrupted because of preemptive scheduling
+[      761.000ms] 196: Job being scheduled now
+[      762.000ms] 196: Job interrupted because of preemptive scheduling
+[      762.000ms] 393: Job being scheduled now
+[      762.838ms] 772: Job Arrived
+[      762.893ms] 773: Job Arrived
+[      763.000ms] 393: Job interrupted because of preemptive scheduling
+[      763.000ms] 394: Job being scheduled now
+[      763.780ms] 774: Job Arrived
+[      764.000ms] 394: Job interrupted because of preemptive scheduling
+[      764.000ms]  49: Job being scheduled now
+[      765.000ms]  49: Job interrupted because of preemptive scheduling
+[      765.000ms] 395: Job being scheduled now
+[      765.083ms] 775: Job Arrived
+[      766.000ms] 395: Job interrupted because of preemptive scheduling
+[      766.000ms] 396: Job being scheduled now
+[      766.512ms] 776: Job Arrived
+[      767.000ms] 396: Job interrupted because of preemptive scheduling
+[      767.000ms] 197: Job being scheduled now
+[      768.000ms] 197: Job interrupted because of preemptive scheduling
+[      768.000ms] 102: Job being scheduled now
+[      769.000ms] 102: Job interrupted because of preemptive scheduling
+[      769.000ms] 198: Job being scheduled now
+[      769.486ms] 777: Job Arrived
+[      770.000ms] 198: Job interrupted because of preemptive scheduling
+[      770.000ms] 397: Job being scheduled now
+[      770.800ms] 778: Job Arrived
+[      771.000ms] 397: Job interrupted because of preemptive scheduling
+[      771.000ms] 199: Job being scheduled now
+[      772.000ms] 199: Job interrupted because of preemptive scheduling
+[      772.000ms] 398: Job being scheduled now
+[      772.061ms] 779: Job Arrived
+[      772.933ms] 780: Job Arrived
+[      773.000ms] 398: Job interrupted because of preemptive scheduling
+[      773.000ms]  50: Job being scheduled now
+[      773.154ms] 781: Job Arrived
+[      774.000ms]  50: Job interrupted because of preemptive scheduling
+[      774.000ms] 399: Job being scheduled now
+[      774.560ms] 782: Job Arrived
+[      775.000ms] 399: Job interrupted because of preemptive scheduling
+[      775.000ms] 400: Job being scheduled now
+[      775.851ms] 783: Job Arrived
+[      776.000ms] 400: Job interrupted because of preemptive scheduling
+[      776.000ms] 401: Job being scheduled now
+[      776.270ms] 784: Job Arrived
+[      776.422ms] 785: Job Arrived
+[      776.530ms] 786: Job Arrived
+[      776.714ms] 787: Job Arrived
+[      777.000ms] 401: Job interrupted because of preemptive scheduling
+[      777.000ms] 103: Job being scheduled now
+[      777.169ms] 788: Job Arrived
+[      777.595ms] 789: Job Arrived
+[      777.745ms] 790: Job Arrived
+[      778.000ms] 103: Job interrupted because of preemptive scheduling
+[      778.000ms] 402: Job being scheduled now
+[      778.117ms] 791: Job Arrived
+[      778.246ms] 792: Job Arrived
+[      778.582ms] 793: Job Arrived
+[      779.000ms] 402: Job interrupted because of preemptive scheduling
+[      779.000ms] 104: Job being scheduled now
+[      780.000ms] 104: Job interrupted because of preemptive scheduling
+[      780.000ms] 403: Job being scheduled now
+[      781.000ms] 403: Job interrupted because of preemptive scheduling
+[      781.000ms]  51: Job being scheduled now
+[      781.467ms] 794: Job Arrived
+[      781.865ms] 795: Job Arrived
+[      782.000ms]  51: Job interrupted because of preemptive scheduling
+[      782.000ms] 200: Job being scheduled now
+[      783.000ms] 200: Job interrupted because of preemptive scheduling
+[      783.000ms] 404: Job being scheduled now
+[      783.282ms] 796: Job Arrived
+[      783.924ms] 797: Job Arrived
+[      784.000ms] 404: Job interrupted because of preemptive scheduling
+[      784.000ms] 105: Job being scheduled now
+[      785.000ms] 105: Job interrupted because of preemptive scheduling
+[      785.000ms] 405: Job being scheduled now
+[      786.000ms] 405: Job interrupted because of preemptive scheduling
+[      786.000ms] 201: Job being scheduled now
+[      787.000ms] 201: Job interrupted because of preemptive scheduling
+[      787.000ms] 406: Job being scheduled now
+[      787.444ms] 798: Job Arrived
+[      788.000ms] 406: Job interrupted because of preemptive scheduling
+[      788.000ms]  24: Job being scheduled now
+[      788.123ms] 799: Job Arrived
+[      789.000ms]  24: Job completed
+[      789.000ms] 407: Job being scheduled now
+[      790.000ms] 407: Job interrupted because of preemptive scheduling
+[      790.000ms] 202: Job being scheduled now
+[      791.000ms] 202: Job interrupted because of preemptive scheduling
+[      791.000ms] 203: Job being scheduled now
+[      791.312ms] 800: Job Arrived
+[      792.000ms] 203: Job interrupted because of preemptive scheduling
+[      792.000ms] 408: Job being scheduled now
+[      793.000ms] 408: Job interrupted because of preemptive scheduling
+[      793.000ms] 409: Job being scheduled now
+[      793.046ms] 801: Job Arrived
+[      793.395ms] 802: Job Arrived
+[      793.546ms] 803: Job Arrived
+[      794.000ms] 409: Job interrupted because of preemptive scheduling
+[      794.000ms] 106: Job being scheduled now
+[      794.540ms] 804: Job Arrived
+[      795.000ms] 106: Job interrupted because of preemptive scheduling
+[      795.000ms] 410: Job being scheduled now
+[      795.938ms] 805: Job Arrived
+[      796.000ms] 410: Job interrupted because of preemptive scheduling
+[      796.000ms] 411: Job being scheduled now
+[      796.980ms] 806: Job Arrived
+[      797.000ms] 411: Job interrupted because of preemptive scheduling
+[      797.000ms] 107: Job being scheduled now
+[      798.000ms] 107: Job interrupted because of preemptive scheduling
+[      798.000ms] 412: Job being scheduled now
+[      799.000ms] 412: Job interrupted because of preemptive scheduling
+[      799.000ms] 204: Job being scheduled now
+[      799.050ms] 807: Job Arrived
+[      799.343ms] 808: Job Arrived
+[      800.000ms] 204: Job interrupted because of preemptive scheduling
+[      800.000ms]  52: Job being scheduled now
+[      800.432ms] 809: Job Arrived
+[      800.907ms] 810: Job Arrived
+[      801.000ms]  52: Job interrupted because of preemptive scheduling
+[      801.000ms] 413: Job being scheduled now
+[      802.000ms] 413: Job interrupted because of preemptive scheduling
+[      802.000ms] 414: Job being scheduled now
+[      802.520ms] 811: Job Arrived
+[      803.000ms] 414: Job interrupted because of preemptive scheduling
+[      803.000ms] 205: Job being scheduled now
+[      803.210ms] 812: Job Arrived
+[      803.770ms] 813: Job Arrived
+[      804.000ms] 205: Job interrupted because of preemptive scheduling
+[      804.000ms] 108: Job being scheduled now
+[      804.024ms] 814: Job Arrived
+[      805.000ms] 108: Job interrupted because of preemptive scheduling
+[      805.000ms] 415: Job being scheduled now
+[      805.087ms] 815: Job Arrived
+[      805.109ms] 816: Job Arrived
+[      806.000ms] 415: Job interrupted because of preemptive scheduling
+[      806.000ms] 206: Job being scheduled now
+[      806.676ms] 817: Job Arrived
+[      807.000ms] 206: Job interrupted because of preemptive scheduling
+[      807.000ms]  53: Job being scheduled now
+[      807.582ms] 818: Job Arrived
+[      807.691ms] 819: Job Arrived
+[      808.000ms]  53: Job interrupted because of preemptive scheduling
+[      808.000ms] 207: Job being scheduled now
+[      809.000ms] 207: Job interrupted because of preemptive scheduling
+[      809.000ms] 416: Job being scheduled now
+[      810.000ms] 416: Job interrupted because of preemptive scheduling
+[      810.000ms] 417: Job being scheduled now
+[      810.819ms] 820: Job Arrived
+[      811.000ms] 417: Job interrupted because of preemptive scheduling
+[      811.000ms] 418: Job being scheduled now
+[      811.027ms] 821: Job Arrived
+[      812.000ms] 418: Job interrupted because of preemptive scheduling
+[      812.000ms] 419: Job being scheduled now
+[      813.000ms] 419: Job interrupted because of preemptive scheduling
+[      813.000ms] 208: Job being scheduled now
+[      813.184ms] 822: Job Arrived
+[      813.824ms] 823: Job Arrived
+[      814.000ms] 208: Job interrupted because of preemptive scheduling
+[      814.000ms] 209: Job being scheduled now
+[      814.596ms] 824: Job Arrived
+[      814.904ms] 825: Job Arrived
+[      815.000ms] 209: Job interrupted because of preemptive scheduling
+[      815.000ms]  54: Job being scheduled now
+[      815.436ms] 826: Job Arrived
+[      816.000ms]  54: Job interrupted because of preemptive scheduling
+[      816.000ms] 420: Job being scheduled now
+[      816.161ms] 827: Job Arrived
+[      816.725ms] 828: Job Arrived
+[      817.000ms] 420: Job interrupted because of preemptive scheduling
+[      817.000ms] 210: Job being scheduled now
+[      818.000ms] 210: Job interrupted because of preemptive scheduling
+[      818.000ms] 421: Job being scheduled now
+[      818.552ms] 829: Job Arrived
+[      819.000ms] 421: Job interrupted because of preemptive scheduling
+[      819.000ms] 211: Job being scheduled now
+[      820.000ms] 211: Job interrupted because of preemptive scheduling
+[      820.000ms] 109: Job being scheduled now
+[      820.793ms] 830: Job Arrived
+[      821.000ms] 109: Job interrupted because of preemptive scheduling
+[      821.000ms]  25: Job being scheduled now
+[      821.112ms] 831: Job Arrived
+[      821.341ms] 832: Job Arrived
+[      821.351ms] 833: Job Arrived
+[      821.387ms] 834: Job Arrived
+[      821.520ms] 835: Job Arrived
+[      822.000ms]  25: Job completed
+[      822.000ms] 422: Job being scheduled now
+[      823.000ms] 422: Job interrupted because of preemptive scheduling
+[      823.000ms] 423: Job being scheduled now
+[      824.000ms] 423: Job interrupted because of preemptive scheduling
+[      824.000ms] 212: Job being scheduled now
+[      825.000ms] 212: Job interrupted because of preemptive scheduling
+[      825.000ms] 424: Job being scheduled now
+[      825.486ms] 836: Job Arrived
+[      825.931ms] 837: Job Arrived
+[      826.000ms] 424: Job interrupted because of preemptive scheduling
+[      826.000ms] 425: Job being scheduled now
+[      826.685ms] 838: Job Arrived
+[      827.000ms] 425: Job interrupted because of preemptive scheduling
+[      827.000ms] 213: Job being scheduled now
+[      827.352ms] 839: Job Arrived
+[      828.000ms] 213: Job interrupted because of preemptive scheduling
+[      828.000ms] 426: Job being scheduled now
+[      828.212ms] 840: Job Arrived
+[      829.000ms] 426: Job interrupted because of preemptive scheduling
+[      829.000ms]  55: Job being scheduled now
+[      830.000ms]  55: Job interrupted because of preemptive scheduling
+[      830.000ms] 214: Job being scheduled now
+[      830.008ms] 841: Job Arrived
+[      831.000ms] 214: Job interrupted because of preemptive scheduling
+[      831.000ms] 110: Job being scheduled now
+[      831.651ms] 842: Job Arrived
+[      832.000ms] 110: Job interrupted because of preemptive scheduling
+[      832.000ms] 215: Job being scheduled now
+[      832.399ms] 843: Job Arrived
+[      833.000ms] 215: Job interrupted because of preemptive scheduling
+[      833.000ms] 216: Job being scheduled now
+[      833.746ms] 844: Job Arrived
+[      834.000ms] 216: Job interrupted because of preemptive scheduling
+[      834.000ms]  56: Job being scheduled now
+[      835.000ms]  56: Job interrupted because of preemptive scheduling
+[      835.000ms] 427: Job being scheduled now
+[      835.324ms] 845: Job Arrived
+[      835.594ms] 846: Job Arrived
+[      835.898ms] 847: Job Arrived
+[      836.000ms] 427: Job interrupted because of preemptive scheduling
+[      836.000ms] 428: Job being scheduled now
+[      836.106ms] 848: Job Arrived
+[      836.217ms] 849: Job Arrived
+[      836.657ms] 850: Job Arrived
+[      837.000ms] 428: Job interrupted because of preemptive scheduling
+[      837.000ms] 111: Job being scheduled now
+[      837.299ms] 851: Job Arrived
+[      837.660ms] 852: Job Arrived
+[      838.000ms] 111: Job interrupted because of preemptive scheduling
+[      838.000ms]  57: Job being scheduled now
+[      838.199ms] 853: Job Arrived
+[      838.673ms] 854: Job Arrived
+[      839.000ms]  57: Job interrupted because of preemptive scheduling
+[      839.000ms] 429: Job being scheduled now
+[      839.940ms] 855: Job Arrived
+[      840.000ms] 429: Job interrupted because of preemptive scheduling
+[      840.000ms] 430: Job being scheduled now
+[      841.000ms] 430: Job interrupted because of preemptive scheduling
+[      841.000ms] 217: Job being scheduled now
+[      841.117ms] 856: Job Arrived
+[      842.000ms] 217: Job interrupted because of preemptive scheduling
+[      842.000ms] 431: Job being scheduled now
+[      842.681ms] 857: Job Arrived
+[      843.000ms] 431: Job interrupted because of preemptive scheduling
+[      843.000ms] 432: Job being scheduled now
+[      844.000ms] 432: Job interrupted because of preemptive scheduling
+[      844.000ms] 112: Job being scheduled now
+[      844.228ms] 858: Job Arrived
+[      845.000ms] 112: Job interrupted because of preemptive scheduling
+[      845.000ms] 433: Job being scheduled now
+[      845.622ms] 859: Job Arrived
+[      846.000ms] 433: Job interrupted because of preemptive scheduling
+[      846.000ms] 434: Job being scheduled now
+[      847.000ms] 434: Job interrupted because of preemptive scheduling
+[      847.000ms] 435: Job being scheduled now
+[      847.134ms] 860: Job Arrived
+[      848.000ms] 435: Job interrupted because of preemptive scheduling
+[      848.000ms] 218: Job being scheduled now
+[      848.393ms] 861: Job Arrived
+[      849.000ms] 218: Job interrupted because of preemptive scheduling
+[      849.000ms] 436: Job being scheduled now
+[      850.000ms] 436: Job interrupted because of preemptive scheduling
+[      850.000ms] 437: Job being scheduled now
+[      850.705ms] 862: Job Arrived
+[      850.768ms] 863: Job Arrived
+[      851.000ms] 437: Job interrupted because of preemptive scheduling
+[      851.000ms] 438: Job being scheduled now
+[      851.153ms] 864: Job Arrived
+[      851.757ms] 865: Job Arrived
+[      852.000ms] 438: Job interrupted because of preemptive scheduling
+[      852.000ms] 439: Job being scheduled now
+[      853.000ms] 439: Job interrupted because of preemptive scheduling
+[      853.000ms] 440: Job being scheduled now
+[      854.000ms] 440: Job interrupted because of preemptive scheduling
+[      854.000ms]  26: Job being scheduled now
+[      854.095ms] 866: Job Arrived
+[      854.787ms] 867: Job Arrived
+[      854.816ms] 868: Job Arrived
+[      855.000ms]  26: Job completed
+[      855.000ms] 441: Job being scheduled now
+[      856.000ms] 441: Job interrupted because of preemptive scheduling
+[      856.000ms] 442: Job being scheduled now
+[      857.000ms] 442: Job interrupted because of preemptive scheduling
+[      857.000ms] 113: Job being scheduled now
+[      857.977ms] 869: Job Arrived
+[      858.000ms] 113: Job interrupted because of preemptive scheduling
+[      858.000ms] 219: Job being scheduled now
+[      858.605ms] 870: Job Arrived
+[      858.948ms] 871: Job Arrived
+[      859.000ms] 219: Job interrupted because of preemptive scheduling
+[      859.000ms]  58: Job being scheduled now
+[      860.000ms]  58: Job interrupted because of preemptive scheduling
+[      860.000ms]  27: Job being scheduled now
+[      861.000ms]  27: Job completed
+[      861.000ms] 443: Job being scheduled now
+[      861.741ms] 872: Job Arrived
+[      862.000ms] 443: Job interrupted because of preemptive scheduling
+[      862.000ms] 220: Job being scheduled now
+[      862.581ms] 873: Job Arrived
+[      862.902ms] 874: Job Arrived
+[      863.000ms] 220: Job interrupted because of preemptive scheduling
+[      863.000ms]  59: Job being scheduled now
+[      864.000ms]  59: Job interrupted because of preemptive scheduling
+[      864.000ms] 444: Job being scheduled now
+[      864.432ms] 875: Job Arrived
+[      864.446ms] 876: Job Arrived
+[      865.000ms] 444: Job interrupted because of preemptive scheduling
+[      865.000ms] 445: Job being scheduled now
+[      866.000ms] 445: Job interrupted because of preemptive scheduling
+[      866.000ms] 221: Job being scheduled now
+[      866.303ms] 877: Job Arrived
+[      866.450ms] 878: Job Arrived
+[      867.000ms] 221: Job interrupted because of preemptive scheduling
+[      867.000ms] 446: Job being scheduled now
+[      867.062ms] 879: Job Arrived
+[      867.292ms] 880: Job Arrived
+[      867.571ms] 881: Job Arrived
+[      868.000ms] 446: Job interrupted because of preemptive scheduling
+[      868.000ms] 447: Job being scheduled now
+[      869.000ms] 447: Job interrupted because of preemptive scheduling
+[      869.000ms] 222: Job being scheduled now
+[      869.149ms] 882: Job Arrived
+[      870.000ms] 222: Job interrupted because of preemptive scheduling
+[      870.000ms] 448: Job being scheduled now
+[      871.000ms] 448: Job interrupted because of preemptive scheduling
+[      871.000ms] 449: Job being scheduled now
+[      871.842ms] 883: Job Arrived
+[      872.000ms] 449: Job interrupted because of preemptive scheduling
+[      872.000ms] 114: Job being scheduled now
+[      872.017ms] 884: Job Arrived
+[      872.190ms] 885: Job Arrived
+[      873.000ms] 114: Job interrupted because of preemptive scheduling
+[      873.000ms] 223: Job being scheduled now
+[      873.767ms] 886: Job Arrived
+[      874.000ms] 223: Job interrupted because of preemptive scheduling
+[      874.000ms] 450: Job being scheduled now
+[      874.144ms] 887: Job Arrived
+[      874.783ms] 888: Job Arrived
+[      875.000ms] 450: Job interrupted because of preemptive scheduling
+[      875.000ms] 451: Job being scheduled now
+[      876.000ms] 451: Job interrupted because of preemptive scheduling
+[      876.000ms] 224: Job being scheduled now
+[      876.508ms] 889: Job Arrived
+[      876.821ms] 890: Job Arrived
+[      877.000ms] 224: Job interrupted because of preemptive scheduling
+[      877.000ms] 452: Job being scheduled now
+[      878.000ms] 452: Job interrupted because of preemptive scheduling
+[      878.000ms] 115: Job being scheduled now
+[      878.320ms] 891: Job Arrived
+[      878.519ms] 892: Job Arrived
+[      878.913ms] 893: Job Arrived
+[      879.000ms] 115: Job interrupted because of preemptive scheduling
+[      879.000ms] 116: Job being scheduled now
+[      879.042ms] 894: Job Arrived
+[      879.360ms] 895: Job Arrived
+[      879.459ms] 896: Job Arrived
+[      879.968ms] 897: Job Arrived
+[      880.000ms] 116: Job interrupted because of preemptive scheduling
+[      880.000ms] 225: Job being scheduled now
+[      880.961ms] 898: Job Arrived
+[      881.000ms] 225: Job interrupted because of preemptive scheduling
+[      881.000ms]  60: Job being scheduled now
+[      881.389ms] 899: Job Arrived
+[      882.000ms]  60: Job interrupted because of preemptive scheduling
+[      882.000ms] 226: Job being scheduled now
+[      882.622ms] 900: Job Arrived
+[      883.000ms] 226: Job interrupted because of preemptive scheduling
+[      883.000ms] 117: Job being scheduled now
+[      883.105ms] 901: Job Arrived
+[      884.000ms] 117: Job interrupted because of preemptive scheduling
+[      884.000ms] 227: Job being scheduled now
+[      885.000ms] 227: Job interrupted because of preemptive scheduling
+[      885.000ms] 453: Job being scheduled now
+[      885.105ms] 902: Job Arrived
+[      886.000ms] 453: Job interrupted because of preemptive scheduling
+[      886.000ms] 228: Job being scheduled now
+[      887.000ms] 228: Job interrupted because of preemptive scheduling
+[      887.000ms] 454: Job being scheduled now
+[      888.000ms] 454: Job interrupted because of preemptive scheduling
+[      888.000ms] 118: Job being scheduled now
+[      888.799ms] 903: Job Arrived
+[      888.977ms] 904: Job Arrived
+[      889.000ms] 118: Job interrupted because of preemptive scheduling
+[      889.000ms] 229: Job being scheduled now
+[      889.265ms] 905: Job Arrived
+[      890.000ms] 229: Job interrupted because of preemptive scheduling
+[      890.000ms] 455: Job being scheduled now
+[      890.318ms] 906: Job Arrived
+[      891.000ms] 455: Job interrupted because of preemptive scheduling
+[      891.000ms] 456: Job being scheduled now
+[      891.169ms] 907: Job Arrived
+[      892.000ms] 456: Job interrupted because of preemptive scheduling
+[      892.000ms] 457: Job being scheduled now
+[      892.076ms] 908: Job Arrived
+[      892.408ms] 909: Job Arrived
+[      893.000ms] 457: Job interrupted because of preemptive scheduling
+[      893.000ms]  61: Job being scheduled now
+[      894.000ms]  61: Job interrupted because of preemptive scheduling
+[      894.000ms] 458: Job being scheduled now
+[      895.000ms] 458: Job interrupted because of preemptive scheduling
+[      895.000ms] 459: Job being scheduled now
+[      896.000ms] 459: Job interrupted because of preemptive scheduling
+[      896.000ms] 230: Job being scheduled now
+[      896.019ms] 910: Job Arrived
+[      896.205ms] 911: Job Arrived
+[      897.000ms] 230: Job interrupted because of preemptive scheduling
+[      897.000ms] 460: Job being scheduled now
+[      897.294ms] 912: Job Arrived
+[      897.827ms] 913: Job Arrived
+[      898.000ms] 460: Job interrupted because of preemptive scheduling
+[      898.000ms] 461: Job being scheduled now
+[      899.000ms] 461: Job interrupted because of preemptive scheduling
+[      899.000ms] 119: Job being scheduled now
+[      899.301ms] 914: Job Arrived
+[      899.758ms] 915: Job Arrived
+[      899.938ms] 916: Job Arrived
+[      900.000ms] 119: Job interrupted because of preemptive scheduling
+[      900.000ms] 462: Job being scheduled now
+[      901.000ms] 462: Job interrupted because of preemptive scheduling
+[      901.000ms]  28: Job being scheduled now
+[      901.065ms] 917: Job Arrived
+[      901.316ms] 918: Job Arrived
+[      902.000ms]  28: Job completed
+[      902.000ms] 463: Job being scheduled now
+[      903.000ms] 463: Job interrupted because of preemptive scheduling
+[      903.000ms] 120: Job being scheduled now
+[      904.000ms] 120: Job interrupted because of preemptive scheduling
+[      904.000ms] 464: Job being scheduled now
+[      905.000ms] 464: Job interrupted because of preemptive scheduling
+[      905.000ms] 465: Job being scheduled now
+[      905.261ms] 919: Job Arrived
+[      906.000ms] 465: Job interrupted because of preemptive scheduling
+[      906.000ms] 231: Job being scheduled now
+[      906.108ms] 920: Job Arrived
+[      907.000ms] 231: Job interrupted because of preemptive scheduling
+[      907.000ms] 466: Job being scheduled now
+[      907.187ms] 921: Job Arrived
+[      907.786ms] 922: Job Arrived
+[      908.000ms] 466: Job interrupted because of preemptive scheduling
+[      908.000ms] 467: Job being scheduled now
+[      909.000ms] 467: Job interrupted because of preemptive scheduling
+[      909.000ms]  62: Job being scheduled now
+[      909.226ms] 923: Job Arrived
+[      909.391ms] 924: Job Arrived
+[      909.448ms] 925: Job Arrived
+[      909.564ms] 926: Job Arrived
+[      910.000ms]  62: Job interrupted because of preemptive scheduling
+[      910.000ms] 468: Job being scheduled now
+[      910.417ms] 927: Job Arrived
+[      910.568ms] 928: Job Arrived
+[      911.000ms] 468: Job interrupted because of preemptive scheduling
+[      911.000ms] 232: Job being scheduled now
+[      911.720ms] 929: Job Arrived
+[      911.761ms] 930: Job Arrived
+[      912.000ms] 232: Job interrupted because of preemptive scheduling
+[      912.000ms] 469: Job being scheduled now
+[      913.000ms] 469: Job interrupted because of preemptive scheduling
+[      913.000ms] 121: Job being scheduled now
+[      913.306ms] 931: Job Arrived
+[      914.000ms] 121: Job interrupted because of preemptive scheduling
+[      914.000ms] 470: Job being scheduled now
+[      914.355ms] 932: Job Arrived
+[      915.000ms] 470: Job interrupted because of preemptive scheduling
+[      915.000ms] 471: Job being scheduled now
+[      915.829ms] 933: Job Arrived
+[      916.000ms] 471: Job interrupted because of preemptive scheduling
+[      916.000ms] 472: Job being scheduled now
+[      916.057ms] 934: Job Arrived
+[      917.000ms] 472: Job interrupted because of preemptive scheduling
+[      917.000ms] 473: Job being scheduled now
+[      917.377ms] 935: Job Arrived
+[      918.000ms] 473: Job interrupted because of preemptive scheduling
+[      918.000ms] 233: Job being scheduled now
+[      918.526ms] 936: Job Arrived
+[      918.756ms] 937: Job Arrived
+[      919.000ms] 233: Job interrupted because of preemptive scheduling
+[      919.000ms] 234: Job being scheduled now
+[      919.756ms] 938: Job Arrived
+[      920.000ms] 234: Job interrupted because of preemptive scheduling
+[      920.000ms]  63: Job being scheduled now
+[      920.406ms] 939: Job Arrived
+[      920.592ms] 940: Job Arrived
+[      920.753ms] 941: Job Arrived
+[      921.000ms]  63: Job interrupted because of preemptive scheduling
+[      921.000ms] 474: Job being scheduled now
+[      921.347ms] 942: Job Arrived
+[      922.000ms] 474: Job interrupted because of preemptive scheduling
+[      922.000ms] 122: Job being scheduled now
+[      922.725ms] 943: Job Arrived
+[      923.000ms] 122: Job interrupted because of preemptive scheduling
+[      923.000ms] 475: Job being scheduled now
+[      924.000ms] 475: Job interrupted because of preemptive scheduling
+[      924.000ms] 476: Job being scheduled now
+[      924.572ms] 944: Job Arrived
+[      925.000ms] 476: Job interrupted because of preemptive scheduling
+[      925.000ms] 235: Job being scheduled now
+[      926.000ms] 235: Job interrupted because of preemptive scheduling
+[      926.000ms] 477: Job being scheduled now
+[      926.061ms] 945: Job Arrived
+[      926.125ms] 946: Job Arrived
+[      927.000ms] 477: Job interrupted because of preemptive scheduling
+[      927.000ms] 236: Job being scheduled now
+[      928.000ms] 236: Job interrupted because of preemptive scheduling
+[      928.000ms]  29: Job being scheduled now
+[      929.000ms]  29: Job completed
+[      929.000ms] 478: Job being scheduled now
+[      929.672ms] 947: Job Arrived
+[      930.000ms] 478: Job interrupted because of preemptive scheduling
+[      930.000ms] 237: Job being scheduled now
+[      931.000ms] 237: Job interrupted because of preemptive scheduling
+[      931.000ms] 479: Job being scheduled now
+[      931.444ms] 948: Job Arrived
+[      932.000ms] 479: Job interrupted because of preemptive scheduling
+[      932.000ms] 480: Job being scheduled now
+[      933.000ms] 480: Job interrupted because of preemptive scheduling
+[      933.000ms] 238: Job being scheduled now
+[      933.528ms] 949: Job Arrived
+[      934.000ms] 238: Job interrupted because of preemptive scheduling
+[      934.000ms] 481: Job being scheduled now
+[      934.721ms] 950: Job Arrived
+[      934.865ms] 951: Job Arrived
+[      935.000ms] 481: Job interrupted because of preemptive scheduling
+[      935.000ms] 123: Job being scheduled now
+[      935.105ms] 952: Job Arrived
+[      935.294ms] 953: Job Arrived
+[      935.616ms] 954: Job Arrived
+[      935.861ms] 955: Job Arrived
+[      935.949ms] 956: Job Arrived
+[      936.000ms] 123: Job interrupted because of preemptive scheduling
+[      936.000ms] 482: Job being scheduled now
+[      937.000ms] 482: Job interrupted because of preemptive scheduling
+[      937.000ms] 124: Job being scheduled now
+[      938.000ms] 124: Job interrupted because of preemptive scheduling
+[      938.000ms] 483: Job being scheduled now
+[      938.278ms] 957: Job Arrived
+[      939.000ms] 483: Job interrupted because of preemptive scheduling
+[      939.000ms] 484: Job being scheduled now
+[      940.000ms] 484: Job interrupted because of preemptive scheduling
+[      940.000ms] 485: Job being scheduled now
+[      940.499ms] 958: Job Arrived
+[      941.000ms] 485: Job interrupted because of preemptive scheduling
+[      941.000ms] 125: Job being scheduled now
+[      941.640ms] 959: Job Arrived
+[      941.898ms] 960: Job Arrived
+[      942.000ms] 125: Job interrupted because of preemptive scheduling
+[      942.000ms] 486: Job being scheduled now
+[      942.487ms] 961: Job Arrived
+[      943.000ms] 486: Job interrupted because of preemptive scheduling
+[      943.000ms] 487: Job being scheduled now
+[      943.627ms] 962: Job Arrived
+[      944.000ms] 487: Job interrupted because of preemptive scheduling
+[      944.000ms] 239: Job being scheduled now
+[      945.000ms] 239: Job interrupted because of preemptive scheduling
+[      945.000ms] 240: Job being scheduled now
+[      946.000ms] 240: Job interrupted because of preemptive scheduling
+[      946.000ms] 488: Job being scheduled now
+[      946.494ms] 963: Job Arrived
+[      946.870ms] 964: Job Arrived
+[      947.000ms] 488: Job interrupted because of preemptive scheduling
+[      947.000ms]  64: Job being scheduled now
+[      947.658ms] 965: Job Arrived
+[      948.000ms]  64: Job interrupted because of preemptive scheduling
+[      948.000ms] 489: Job being scheduled now
+[      948.000ms] 966: Job Arrived
+[      948.264ms] 967: Job Arrived
+[      948.631ms] 968: Job Arrived
+[      949.000ms] 489: Job interrupted because of preemptive scheduling
+[      949.000ms] 126: Job being scheduled now
+[      950.000ms] 126: Job interrupted because of preemptive scheduling
+[      950.000ms] 490: Job being scheduled now
+[      950.621ms] 969: Job Arrived
+[      950.834ms] 970: Job Arrived
+[      951.000ms] 490: Job interrupted because of preemptive scheduling
+[      951.000ms] 491: Job being scheduled now
+[      952.000ms] 491: Job interrupted because of preemptive scheduling
+[      952.000ms] 241: Job being scheduled now
+[      952.157ms] 971: Job Arrived
+[      952.707ms] 972: Job Arrived
+[      952.722ms] 973: Job Arrived
+[      952.751ms] 974: Job Arrived
+[      953.000ms] 241: Job interrupted because of preemptive scheduling
+[      953.000ms] 242: Job being scheduled now
+[      953.621ms] 975: Job Arrived
+[      954.000ms] 242: Job interrupted because of preemptive scheduling
+[      954.000ms] 243: Job being scheduled now
+[      954.115ms] 976: Job Arrived
+[      955.000ms] 243: Job interrupted because of preemptive scheduling
+[      955.000ms] 492: Job being scheduled now
+[      955.910ms] 977: Job Arrived
+[      956.000ms] 492: Job interrupted because of preemptive scheduling
+[      956.000ms] 127: Job being scheduled now
+[      956.213ms] 978: Job Arrived
+[      956.829ms] 979: Job Arrived
+[      957.000ms] 127: Job interrupted because of preemptive scheduling
+[      957.000ms] 493: Job being scheduled now
+[      957.324ms] 980: Job Arrived
+[      958.000ms] 493: Job interrupted because of preemptive scheduling
+[      958.000ms] 244: Job being scheduled now
+[      959.000ms] 244: Job interrupted because of preemptive scheduling
+[      959.000ms] 245: Job being scheduled now
+[      960.000ms] 245: Job interrupted because of preemptive scheduling
+[      960.000ms] 128: Job being scheduled now
+[      960.372ms] 981: Job Arrived
+[      960.553ms] 982: Job Arrived
+[      960.679ms] 983: Job Arrived
+[      960.759ms] 984: Job Arrived
+[      961.000ms] 128: Job interrupted because of preemptive scheduling
+[      961.000ms] 246: Job being scheduled now
+[      961.144ms] 985: Job Arrived
+[      961.522ms] 986: Job Arrived
+[      962.000ms] 246: Job interrupted because of preemptive scheduling
+[      962.000ms] 494: Job being scheduled now
+[      962.099ms] 987: Job Arrived
+[      962.513ms] 988: Job Arrived
+[      962.914ms] 989: Job Arrived
+[      963.000ms] 494: Job interrupted because of preemptive scheduling
+[      963.000ms] 247: Job being scheduled now
+[      963.433ms] 990: Job Arrived
+[      964.000ms] 247: Job interrupted because of preemptive scheduling
+[      964.000ms] 495: Job being scheduled now
+[      965.000ms] 495: Job interrupted because of preemptive scheduling
+[      965.000ms]  30: Job being scheduled now
+[      966.000ms]  30: Job completed
+[      966.000ms] 496: Job being scheduled now
+[      966.761ms] 991: Job Arrived
+[      967.000ms] 496: Job interrupted because of preemptive scheduling
+[      967.000ms] 129: Job being scheduled now
+[      968.000ms] 129: Job interrupted because of preemptive scheduling
+[      968.000ms] 248: Job being scheduled now
+[      968.621ms] 992: Job Arrived
+[      968.751ms] 993: Job Arrived
+[      968.999ms] 994: Job Arrived
+[      969.000ms] 248: Job interrupted because of preemptive scheduling
+[      969.000ms] 497: Job being scheduled now
+[      969.865ms] 995: Job Arrived
+[      969.985ms] 996: Job Arrived
+[      970.000ms] 497: Job interrupted because of preemptive scheduling
+[      970.000ms] 498: Job being scheduled now
+[      970.714ms] 997: Job Arrived
+[      971.000ms] 498: Job interrupted because of preemptive scheduling
+[      971.000ms] 249: Job being scheduled now
+[      972.000ms] 249: Job interrupted because of preemptive scheduling
+[      972.000ms] 499: Job being scheduled now
+[      973.000ms] 499: Job interrupted because of preemptive scheduling
+[      973.000ms] 500: Job being scheduled now
+[      973.299ms] 998: Job Arrived
+[      973.369ms] 999: Job Arrived
+[      973.706ms] 1000: Job Arrived
+[      974.000ms] 500: Job interrupted because of preemptive scheduling
+[      974.000ms] 501: Job being scheduled now
+[      974.474ms] 1001: Job Arrived
+[      974.871ms] 1002: Job Arrived
+[      974.884ms] 1003: Job Arrived
+[      975.000ms] 501: Job interrupted because of preemptive scheduling
+[      975.000ms]  65: Job being scheduled now
+[      976.000ms]  65: Job interrupted because of preemptive scheduling
+[      976.000ms] 130: Job being scheduled now
+[      976.733ms] 1004: Job Arrived
+[      977.000ms] 130: Job interrupted because of preemptive scheduling
+[      977.000ms] 502: Job being scheduled now
+[      977.673ms] 1005: Job Arrived
+[      978.000ms] 502: Job interrupted because of preemptive scheduling
+[      978.000ms] 503: Job being scheduled now
+[      979.000ms] 503: Job interrupted because of preemptive scheduling
+[      979.000ms] 504: Job being scheduled now
+[      980.000ms] 504: Job interrupted because of preemptive scheduling
+[      980.000ms]  66: Job being scheduled now
+[      980.895ms] 1006: Job Arrived
+[      981.000ms]  66: Job interrupted because of preemptive scheduling
+[      981.000ms] 505: Job being scheduled now
+[      981.707ms] 1007: Job Arrived
+[      982.000ms] 505: Job interrupted because of preemptive scheduling
+[      982.000ms] 506: Job being scheduled now
+[      982.459ms] 1008: Job Arrived
+[      983.000ms] 506: Job interrupted because of preemptive scheduling
+[      983.000ms] 250: Job being scheduled now
+[      983.241ms] 1009: Job Arrived
+[      984.000ms] 250: Job interrupted because of preemptive scheduling
+[      984.000ms] 507: Job being scheduled now
+[      985.000ms] 507: Job interrupted because of preemptive scheduling
+[      985.000ms] 508: Job being scheduled now
+[      985.325ms] 1010: Job Arrived
+[      986.000ms] 508: Job interrupted because of preemptive scheduling
+[      986.000ms] 251: Job being scheduled now
+[      987.000ms] 251: Job interrupted because of preemptive scheduling
+[      987.000ms] 509: Job being scheduled now
+[      987.991ms] 1011: Job Arrived
+[      988.000ms] 509: Job interrupted because of preemptive scheduling
+[      988.000ms] 252: Job being scheduled now
+[      988.700ms] 1012: Job Arrived
+[      989.000ms] 252: Job interrupted because of preemptive scheduling
+[      989.000ms] 510: Job being scheduled now
+[      990.000ms] 510: Job interrupted because of preemptive scheduling
+[      990.000ms] 511: Job being scheduled now
+[      990.445ms] 1013: Job Arrived
+[      990.712ms] 1014: Job Arrived
+[      991.000ms] 511: Job interrupted because of preemptive scheduling
+[      991.000ms] 253: Job being scheduled now
+[      991.501ms] 1015: Job Arrived
+[      991.608ms] 1016: Job Arrived
+[      991.800ms] 1017: Job Arrived
+[      992.000ms] 253: Job interrupted because of preemptive scheduling
+[      992.000ms] 512: Job being scheduled now
+[      993.000ms] 512: Job interrupted because of preemptive scheduling
+[      993.000ms] 513: Job being scheduled now
+[      993.972ms] 1018: Job Arrived
+[      994.000ms] 513: Job interrupted because of preemptive scheduling
+[      994.000ms]  67: Job being scheduled now
+[      994.208ms] 1019: Job Arrived
+[      995.000ms]  67: Job interrupted because of preemptive scheduling
+[      995.000ms] 254: Job being scheduled now
+[      996.000ms] 254: Job interrupted because of preemptive scheduling
+[      996.000ms] 514: Job being scheduled now
+[      996.049ms] 1020: Job Arrived
+[      996.528ms] 1021: Job Arrived
+[      997.000ms] 514: Job interrupted because of preemptive scheduling
+[      997.000ms] 131: Job being scheduled now
+[      997.415ms] 1022: Job Arrived
+[      998.000ms] 131: Job interrupted because of preemptive scheduling
+[      998.000ms] 515: Job being scheduled now
+[      999.000ms] 515: Job interrupted because of preemptive scheduling
+[      999.000ms] 516: Job being scheduled now
+[      999.405ms] 1023: Job Arrived
+[     1000.000ms] 516: Job interrupted because of preemptive scheduling
+[     1000.000ms] 517: Job being scheduled now
+*** Simulation complete ***
